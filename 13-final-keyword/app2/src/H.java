@@ -1,0 +1,4 @@
+interface H
+{
+	int i;
+}

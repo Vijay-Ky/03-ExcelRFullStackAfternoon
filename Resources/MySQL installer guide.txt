@@ -1,0 +1,12 @@
+MySQL Workbench
+--------------------------------------------
+https://www.mysql.com/products/workbench/
+
+MySQLDB community installer
+-----------------------------------------------------
+
+https://dev.mysql.com/downloads/mysql/
+
+https://dev.mysql.com/downloads/windows/installer/8.0.html
+
+https://aka.ms/vs/17/release/vc_redist.x64.exe

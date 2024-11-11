@@ -1,0 +1,89 @@
+Q.Difference between web design and web development?
+    web design    
+    1. Look and feel
+   web development
+
+static and dynamic
+---------------------------------------
+static - doesnt change very often
+   
+    
+
+
+Q. What is Web??
+A. The Web, short for World Wide Web, it is an interconnected system of web pages and resources that are accessible over the internet.
+
+Q. Who invented Web??
+A. It was invented by Sir Tim Berners-Lee in 1989 and has since revolutionized the way we share and consume information.
+
+Q. What is Internet??
+A. The Internet is a network of connected computers. The purpose of connecting computers together, of course, is to share and consume information
+
+Q. Explain Web in detail? How the Internet works?
+  1. The data would be stored inside servers, servers use SSD       to store the information.
+  2. Servers would be stoked inside the racks these are placed in a       data centers. 
+  3. Data center can be anywhere on the internet that will       maintain the servers.
+  4. Information will not be reaching your device through satellite       because satellites will be 22000 km above from the earth. due      to that information has to travel 44000 and causing delays in      serving data. due to that isssue fiber optical fiber cables will be      used, which connects b/w data center and our device
+ 5. information will be stored inside the data center SSD(internal     memory of the server)
+ 7. server is a powerful computer job is to provide the     information
+ 8. every device(mobile, computer, server) which is connected to the internet which is identified by an IP address(string of numbers) IP addres(ex: home address)uniquekly identifing the device.
+9. Its difficult to remember so many IP address so to solve this problem domain names which corresponds to IP address are easier to remember
+10. server has the capability of storing several websites
+11. DNS will provide the IP address of a website to the internet, its like phone book(ex: if you know the person name but not number you will search by using name)
+12. you enter the domain name the browser will send request to the DNS server  to get the corresponding IP address after it gets the IP address browser will send the request to the data center(respective server) then data transfer will happen in the form of light signals and reaching to our router and then router converts light signals to electrical signals  then an ethernet cable is used to transmit the electrical signals to our laptop.
+13. in case of wireless cell phone signal will be transefered via cell tower in the form of electro magnetic waves.
+14. data will be sent in 0s and 1s and in the form of data packets
+video source https://www.youtube.com/watch?v=x3c1ih2NJEg&list=PLuUdFsbOK_8pWzW7KJjbiJ8Ow0cdHlApV&index=3
+
+
+Download Chrome Browser
+---------------------
+https://www.google.com/intl/en_in/chrome/
+
+VSCode
+Brackets
+Atom
+
+Download VS code
+--------------------
+https://code.visualstudio.com/download
+Go for User Installer
+The user installer is recommended because it does not require administrator privileges
+User Installer - particular user
+System Installer - for all the users
+
+Settings - 
+ VS code settings
+ Theme Light
+ turn on word wrap, format on save
+ Emmet is inbuilt in VScode
+ 
+
+VS code extensions
+ 1. Better align
+ 2. Bracket pair colorizer
+ 3. ESLint
+ 4. JavaScript(ES6) code snippets
+ 5. Live Server
+    <!-- if your liveserver is not running manually got this addrres
+	http://127.0.0.1:5500/index.html -->
+ 6. Lorem ipsum
+ 7. Prettier code formater -> cmd + shift + p -> format document
+    <!-- prettier code formatter for auto code indentation
+    and then cntrl + shift + p then type   format document - select prettier -->
+    <!-- go to settings type format on save select the checkbox -->
+ 8. AutoCloseTag
+ 9. Auto Rename Tag
+ 10. Code Spell Checker
+ 11. vscode-icons
+
+
+ 
+2. front end - HTML, CSS, JS, React, Angular | Backend - Django, Ruby on Rails
+Dynamic v/s Static Pages
+*Static pages show the same content each time they are viewed.
+*Dynamic pages have content that can change each time they are
+accessed. 
+
+
+

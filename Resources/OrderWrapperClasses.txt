@@ -1,0 +1,71 @@
+Preferences
+--------------------------
+scenario - 1:
+same type and widening type
+- same type
+scenario - 2:
+if we have only widening type
+- widening would be considered
+scenario - 3:
+widening type, narrowing type
+- widening type
+scenario - 4:
+same type, Boxing
+- same type
+
+scenario - 5:
+widening type, Boxing
+- widening type
+
+scenario - 6:
+same type type boxing
+- same type type boxing
+
+scenario - 7:
+same type boxing
+- same type boxing
+
+scenario - 8:
+same type boxing, widening type boxing
+- same type boxing
+
+scenario - 9:
+widening type boxing
+- Error
+
+scenario - 10:
+same type and Number type 
+- same type
+
+scenario - 10:
+Number type and siblings types
+- Number type
+
+scenario - 11:
+Number type and Object type, same type
+- same type
+
+scenario - 12:
+Number type and Object type
+- Number type
+
+scenario - 13:
+Object type
+- Object type
+
+scenario - 14:
+Object type
+- Object type
+
+scenario - 15:
+same type, widening type, same type of boxing, Siblings Boxing, Number type, Object type, var-arg type
+
+preferences
+---------------
+1. Same type
+2. Immediate widening
+3. widening type
+4. Same type of boxing
+5. Number 
+6. Object
+7. var-arg(it is the last preference)

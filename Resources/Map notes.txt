@@ -1,0 +1,21 @@
+Map
+----------
+1. Map is a seperate interface, it doesnt comes under Collection interface. but it also under collection API or collection framework
+2. By using put method we can add elements to the map object
+3. each entry will considered as one entry object.
+4. put method accepts two arguments key and values
+5. in the map objects are stored in the form key and value pairs.
+6. key can be empty ? NO
+7. value can be empty? NO
+8. key can be null ? yes, a seperate bucked will be allocated for null entry. 
+Note: if you adding another entry with key as null, the latest null entry will be replacing the older entry(latest value will be considered)
+9. Both key and values are objects.
+10. value can null for more than one entry. possible
+11. duplicate keys will not be allowed, if duplicate keys are there the latest will be considered(but  we dont get any CTE or RTE)
+12. Order of addition will not be preserved.
+13. Map container indation would be using {}
+14. we can get the value associate with a key by using 'get(key)' method
+15.we can fetch all the keys of one map object by calling 'keySet()' method on map reference.
+16. In order to represent group of objects in the form of key and value pairs we can use Map.
+17. In order to preseve the order of addition we can use LinkedHashMap. 
+18. values can duplicate

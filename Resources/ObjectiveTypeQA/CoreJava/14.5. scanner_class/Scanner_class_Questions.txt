@@ -1,0 +1,1264 @@
+					Scanner_Class_Answers
+					---------------------
+
+**1. What is the purpose of the Scanner class in Java?**
+   A. To read input from the console
+   B. To print output to the console
+   C. To perform mathematical calculations
+   D. To create graphical user interfaces
+
+**2. Which package contains the Scanner class in Java?**
+   A. java.lang
+   B. java.util
+   C. java.io
+   D. java.text
+
+**3. Which method is used to read an integer from the console using Scanner?**
+   A. nextInt()
+   B. nextDouble()
+   C. next()
+   D. nextLine()
+
+**4. What will happen if you use `nextInt()` to read a non-integer input?**
+   A. It will throw a compile-time error
+   B. It will throw a runtime exception
+   C. It will return the default value for int
+   D. It will wait for valid input
+
+**5. How can you read a double value from the console using Scanner?**
+   A. nextDouble()
+   B. next()
+   C. nextInt()
+   D. nextLine()
+
+**6. Which method is used to read a line of text from the console using Scanner?**
+   A. nextLine()
+   B. next()
+   C. nextInt()
+   D. nextDouble()
+
+**7. What does the `next()` method of Scanner do?**
+   A. Reads the next character
+   B. Reads the next word (sequence of non-space characters)
+   C. Reads the next line
+   D. Reads the next integer
+
+**8. Which method reads a byte value from the console using Scanner?**
+   A. nextByte()
+   B. next()
+   C. nextLine()
+   D. nextInt()
+
+**9. How can you read a short value from the console using Scanner?**
+   A. nextShort()
+   B. next()
+   C. nextInt()
+   D. nextLine()
+
+**10. Which method reads a long value from the console using Scanner?**
+    A. nextLong()
+    B. next()
+    C. nextInt()
+    D. nextLine()
+
+**11. What is the purpose of the `useDelimiter()` method in Scanner?**
+    A. It sets the delimiter for reading numbers
+    B. It sets the delimiter for reading characters
+    C. It sets the delimiter for splitting strings
+    D. It sets the delimiter for reading lines
+
+**12. Which method is used to check if there is another token available in the input?**
+    A. hasNext()
+    B. hasToken()
+    C. hasNextToken()
+    D. hasMore()
+
+**13. What happens if you call `nextLine()` after calling `nextInt()` without consuming the newline character?**
+    A. It reads the next line properly
+    B. It skips the next line
+    C. It throws an InputMismatchException
+    D. It waits indefinitely for input
+
+**14. Which method is used to close the Scanner object?**
+    A. close()
+    B. shutdown()
+    C. end()
+    D. finish()
+
+**15. What will happen if you call `nextDouble()` and the next token is not a valid double?**
+    A. It will return 0.0
+    B. It will throw a NoSuchElementException
+    C. It will throw an InputMismatchException
+    D. It will return Double.NaN
+
+**16. Which method reads a boolean value from the console using Scanner?**
+    A. nextBoolean()
+    B. next()
+    C. nextLine()
+    D. nextInt()
+
+**17. How can you read a float value from the console using Scanner?**
+    A. nextFloat()
+    B. next()
+    C. nextDouble()
+    D. nextLine()
+
+**18. What is the default delimiter used by Scanner?**
+    A. Space
+    B. Comma
+    C. Tab
+    D. Newline
+
+**19. How can you change the delimiter used by Scanner to a comma?**
+    A. scanner.useDelimiter(",")
+    B. scanner.setDelimiter(",")
+    C. scanner.delimiter(",")
+    D. scanner.changeDelimiter(",")
+
+**20. Which method can be used to read an unsigned integer from the console using Scanner?**
+    A. nextUnsignedInt()
+    B. nextInt()
+    C. next()
+    D. nextLine()
+
+**21. Which method is used to read a single character from the console using Scanner?**
+    A. nextChar()
+    B. next()
+    C. nextLine()
+    D. nextChar()
+
+**22. What happens if you call `next()` when there are no more tokens in the input?**
+    A. It throws a NoSuchElementException
+    B. It returns an empty string
+    C. It returns null
+    D. It throws an InputMismatchException
+
+**23. How can you read a hexadecimal integer from the console using Scanner?**
+    A. scanner.nextHexInt()
+    B. scanner.nextInt(16)
+    C. scanner.next()
+    D. scanner.nextLine()
+
+**24. What method is used to read a string with spaces from the console using Scanner?**
+    A. next()
+    B. nextLine()
+    C. nextString()
+    D. nextWord()
+
+**25. Which method is used to read a byte array from the console using Scanner?**
+    A. nextByteArray()
+    B. next()
+    C. nextLine()
+    D. nextBytes()
+
+**26. How can you set the radix (base) for reading integers using Scanner?**
+    A. scanner.setRadix()
+    B. scanner.radix()
+    C. scanner.useRadix()
+    D. scanner.useDelimiter()
+
+**27. What does the `skip()` method of Scanner do?**
+    A. Skips a specified number of characters
+    B. Skips a specified number of tokens
+    C. Skips a specified pattern
+    D. Skips a specified line
+
+**28. Which method is used to read a formatted string from the console using Scanner?**
+    A. nextFormatted()
+    B. next()
+    C. nextLine()
+    D. nextFormat()
+
+**29. What happens if you call `nextBoolean()` when the next token is not a valid boolean value?**
+    A. It throws a NoSuchElementException
+    B. It throws an InputMismatchException
+    C. It returns false
+    D. It returns true
+
+**30. How can you read a single word (sequence of non-space characters) from the console using Scanner?**
+    A. nextWord()
+    B. nextLine()
+    C. next()
+    D. nextString()
+
+**31. What is the purpose of the `hasNextLine()` method in Scanner?**
+    A. Checks if there is another line available
+    B. Checks if there is another token available
+    C. Checks if there is another integer available
+    D. Checks if there is another character available
+
+**32. Which method is used to read a pattern from the console using Scanner?**
+    A. nextPattern()
+    B. next()
+    C. nextLine()
+    D. nextRegex()
+
+**33. What is the purpose of the `hasNextInt(int radix)` method in Scanner?**
+    A. Checks if there is another integer available in the specified radix
+    B. Checks if there is another line available
+    C. Checks if there is another token available
+    D. Checks if there is another double available
+
+**34. How can you read a file path from the console using Scanner?**
+    A. nextPath()
+    B. next()
+    C. nextLine()
+    D. nextFile()
+
+**35. What is the return type of the `hasNext()` method in Scanner?**
+    A. boolean
+    B. int
+    C. String
+    D. void
+
+**36. How can you read a date in a specific format from the console using Scanner?**
+    A. next()
+    B. nextLine()
+    C. nextDate()
+    D. nextFormattedDate()
+
+**37. Which method can be used to read a token until a specific pattern is encountered?**
+    A. nextUntil()
+    B. next()
+    C. nextLine()
+    D. nextPattern()
+
+**38. What is the purpose of the `reset()` method in Scanner?**
+    A. Clears the current token
+    B. Resets the scanner's delimiter
+    C. Resets the scanner's state
+    D. Closes the scanner
+
+**39. How can you read an unsigned long from the console using Scanner?**
+    A. nextUnsignedLong()
+    B. nextLong()
+    C. next()
+    D. nextLine()
+
+**40. What is the purpose of the `ioException()` method in Scanner?**
+    A. Throws an IOException
+    B. Checks if an IOException occurred
+    C. Closes the scanner
+    D. Resets the scanner's state
+
+
+**41. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Hello World 123 3.14 true");
+        while(scanner.hasNext()) {
+            if(scanner.hasNextInt()) {
+                System.out.println(scanner.nextInt());
+            } else if(scanner.hasNextDouble()) {
+                System.out.println(scanner.nextDouble());
+            } else if(scanner.hasNextBoolean()) {
+                System.out.println(scanner.nextBoolean());
+            } else {
+                System.out.println(scanner.next());
+            }
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Hello World 123 3.14 true
+D. 123 3.14 true
+
+
+**42. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        System.out.println("You entered: " + num);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a number: [User Input] You entered: [User Input]
+D. Enter a number: [User Input]
+   You entered: [User Input]
+
+
+**43. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("123 456 789");
+        int sum = 0;
+        while(scanner.hasNextInt()) {
+            sum += scanner.nextInt();
+        }
+        System.out.println("Sum: " + sum);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Sum: 1368
+D. Sum: 45
+
+
+**44. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Hello\nWorld\n123");
+        while(scanner.hasNextLine()) {
+            System.out.println(scanner.nextLine());
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Hello World 123
+D. Hello\nWorld\n123
+
+
+**45. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("3.14 2.71 1.61");
+        double product = 1.0;
+        while(scanner.hasNextDouble()) {
+            product *= scanner.nextDouble();
+        }
+        System.out.println("Product: " + product);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Product: 13.9286824
+D. Product: 13.9286824 2.71 1.61
+
+
+**46. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a sentence: ");
+        String sentence = scanner.nextLine();
+        System.out.println("You entered: " + sentence);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a sentence: [User Input] You entered: [User Input]
+D. Enter a sentence: [User Input]
+   You entered: [User Input]
+
+
+**47. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("true false true");
+        while(scanner.hasNextBoolean()) {
+            System.out.println(scanner.nextBoolean());
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. true false true
+D. true\nfalse\ntrue
+
+
+**48. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Java Programming\nIs Fun");
+        System.out.println(scanner.next());
+        System.out.println(scanner.nextLine());
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Java Programming
+   Is Fun
+D. Java\nProgramming Is Fun
+
+
+**49. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a word: ");
+        String word = scanner.next();
+        System.out.println("You entered: " + word);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a word: [User Input] You entered: [User Input]
+D. Enter a word: [User Input]
+   You entered: [User Input]
+
+
+**50. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("A quick brown fox jumps");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().toUpperCase() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. A QUICK BROWN FOX JUMPS
+D. A quick brown fox jumps
+
+
+**51. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter an integer: ");
+        int num = scanner.nextInt();
+        System.out.println("You entered: " + num);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter an integer: [User Input] You entered: [User Input]
+D. Enter an integer: [User Input]
+   You entered: [User Input]
+
+
+**52. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("1 true 3.14 hello");
+        while(scanner.hasNext()) {
+            if(scanner.hasNextInt()) {
+                System.out.println(scanner.nextInt());
+            } else if(scanner.hasNextDouble()) {
+                System.out.println(scanner.nextDouble());
+            } else if(scanner.hasNextBoolean()) {
+                System.out.println(scanner.nextBoolean());
+            } else {
+                System.out.println(scanner.next());
+            }
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. 1 true 3.14 hello
+D. 1\ntrue\n3.14\nhello
+
+
+**53. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a double: ");
+        double num = scanner.nextDouble();
+        System.out.println("You entered: " + num);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a double: [User Input] You entered: [User Input]
+D. Enter a double: [User Input]
+   You entered: [User Input]
+
+
+**54. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("One Two Three Four");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().charAt(0) + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. O T T F
+D. One Two Three Four
+
+
+**55. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("5 2 7");
+        int sum = 0;
+        while(scanner.hasNextInt()) {
+            sum += scanner.nextInt();
+        }
+        System.out.println("Sum: " + sum);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Sum: 14
+D. Sum: 527
+
+
+**56. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("false True FALSE true");
+        while(scanner.hasNextBoolean()) {
+            System.out.println(scanner.nextBoolean());
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. false true false true
+D. false\nTrue\nFALSE\ntrue
+
+
+**57. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Hello World 123");
+        while(scanner.hasNext()) {
+            System.out.println(scanner.next());
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Hello World 123
+D. Hello\nWorld\n123
+
+
+**58. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("3.14 2.71 1.61");
+        double product = 1.0;
+        while(scanner.hasNextDouble()) {
+            product *= scanner.nextDouble();
+        }
+        System.out.println("Product: " + product);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Product: 13.9286824
+D. Product: 13.9286824 2.71 1.61
+
+
+**59. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Java Programming Is Fun");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().toUpperCase() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. JAVA PROGRAMMING IS FUN
+D. Java Programming Is Fun
+
+
+**60. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a sentence: ");
+        String sentence = scanner.nextLine();
+        System.out.println("You entered: " + sentence);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a sentence: [User Input] You entered: [User Input]
+D. Enter a sentence: [User Input]
+
+
+**61. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("1 2 3 4 5");
+        while(scanner.hasNextInt()) {
+            System.out.println(scanner.nextInt() * 2);
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. 2\n4\n6\n8\n10
+D. 1 2 3 4 5
+
+
+**62. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        System.out.println("You entered: " + str);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a string: [User Input] You entered: [User Input]
+D. Enter a string: [User Input]
+   You entered: [User Input]
+
+
+**63. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("false true true false");
+        while(scanner.hasNextBoolean()) {
+            System.out.print(scanner.nextBoolean() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. false true true false
+D. false\ntrue\ntrue\nfalse
+
+
+**64. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("1 3 5 7 9");
+        int product = 1;
+        while(scanner.hasNextInt()) {
+            product *= scanner.nextInt();
+        }
+        System.out.println("Product: " + product);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Product: 945
+D. Product: 1 3 5 7 9
+
+
+**65. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("abc def ghi");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().length() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. 3 3 3
+D. 2 3 3
+
+
+**66. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("1 2.5 3 4.2 5");
+        double sum = 0;
+        while(scanner.hasNextDouble()) {
+            sum += scanner.nextDouble();
+        }
+        System.out.println("Sum: " + sum);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Sum: 16.7
+D. Sum: 16.7 5
+
+
+**67. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Java\nProgramming\nIs Fun");
+        while(scanner.hasNextLine()) {
+            System.out.println(scanner.nextLine().toUpperCase());
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. JAVA\nPROGRAMMING\nIS FUN
+D. Java Programming Is Fun
+
+
+**68. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("a\nb\nc");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().charAt(0) + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. a b c
+D. a\nb\nc
+
+
+**69. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Hello 123 true 3.14");
+        while(scanner.hasNext()) {
+            if(scanner.hasNextInt()) {
+                System.out.println("Integer: " + scanner.nextInt());
+            } else if(scanner.hasNextBoolean()) {
+                System.out.println("Boolean: " + scanner.nextBoolean());
+            } else if(scanner.hasNextDouble()) {
+                System.out.println("Double: " + scanner.nextDouble());
+            } else {
+                System.out.println("String: " + scanner.next());
+            }
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Integer: 123
+   String: true
+   Double: 3.14
+D. Integer: 123
+   Boolean: true
+   Double: 3.14
+
+
+
+**70. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("1 2 3 4 5");
+        int sum = 0;
+        while(scanner.hasNextInt()) {
+            sum += scanner.nextInt();
+        }
+        System.out.println("Sum: " + sum);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Sum: 15
+D. Sum: 1 2 3 4 5
+
+
+**71. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("Java Programming Language");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().charAt(0) + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. J P L
+D. JPL
+
+**72. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("3.14 2.71 1.61");
+        double product = 1.0;
+        while(scanner.hasNextDouble()) {
+            product *= scanner.nextDouble();
+        }
+        System.out.println("Product: " + product);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Product: 13.9286824
+D. Product: 13.9286824 2.71 1.61
+
+**73. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a sentence: ");
+        String sentence = scanner.nextLine();
+        System.out.println("You entered: " + sentence);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a sentence: [User Input] You entered: [User Input]
+D. Enter a sentence: [User Input]
+   You entered: [User Input]
+
+
+**74. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("true false true false");
+        while(scanner.hasNextBoolean()) {
+            System.out.print(scanner.nextBoolean() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. true false true false
+D. true\nfalse\ntrue\nfalse
+
+
+**75. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("A B C D E");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().toLowerCase() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. a b c d e
+D. A B C D E
+
+
+**76. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("123 456 789");
+        while(scanner.hasNextInt()) {
+            System.out.println(scanner.nextInt() + 10);
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. 133 466 799
+D. 123 456 789 10
+
+
+**77. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("One Two Three Four");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().charAt(0) + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. O T T F
+D. One Two Three Four
+
+
+**78. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("a b c d e");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().toUpperCase() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. A B C D E
+D. a b c d e
+
+
+**79. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("3.14 2.71 1.61");
+        double product = 1.0;
+        while(scanner.hasNextDouble()) {
+            product *= scanner.nextDouble();
+        }
+        System.out.println("Product: " + product);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Product: 13.9286824
+D. Product: 13.9286824 2.71 1.61
+
+
+**80. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a sentence: ");
+        String sentence = scanner.nextLine();
+        System.out.println("You entered: " + sentence);
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. Enter a sentence: [User Input] You entered: [User Input]
+D. Enter a sentence: [User Input]
+   You entered: [User Input]
+
+
+**81. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("true false true false");
+        while(scanner.hasNextBoolean()) {
+            System.out.print(scanner.nextBoolean() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. true false true false
+D. true\nfalse\ntrue\nfalse
+
+
+**82. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("A B C D E");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().toLowerCase() + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. a b c d e
+D. A B C D E
+
+
+**83. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("123 456 789");
+        while(scanner.hasNextInt()) {
+            System.out.println(scanner.nextInt() + 10);
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. 133 466 799
+D. 123 456 789 10
+
+
+**84. What is the output of the following Java program?**
+
+```java
+import java.util.Scanner;
+
+public class ScannerExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner("One Two Three Four");
+        while(scanner.hasNext()) {
+            System.out.print(scanner.next().charAt(0) + " ");
+        }
+        scanner.close();
+    }
+}
+```
+
+A. Compile-time error
+B. Runtime error
+C. O T T F
+D. One Two Three Four
+

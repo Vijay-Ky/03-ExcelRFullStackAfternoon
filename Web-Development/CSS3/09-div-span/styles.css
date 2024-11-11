@@ -1,0 +1,30 @@
+/* DIV and SPAN - used for grouping */
+/* DIV - we can group multiple elements */
+/* SPAN - we can group inline content */
+/* Block level element - always start from the new line takes the entire width of the screen */
+/* Inline element - starts in the same line, takes as much space is required not more than that */
+/* DIV is block level element - div takes the entire width of the screen  */
+/* SPAN is a inline element - only takes up the neccessary space */
+
+.green
+{
+    color: green;
+    background: yellow;
+}
+
+.red
+{
+    color: red;
+    background: black;
+}
+
+.text
+{
+    background: white;
+    color: blue;
+}
+
+span
+{
+    text-transform: uppercase;
+}

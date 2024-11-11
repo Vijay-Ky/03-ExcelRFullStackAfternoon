@@ -1,0 +1,24 @@
+/* VIEWPORT UNITS */
+/* vh - height - percent of the screen */
+/* vw - width - percent of the screen */
+/* without height width cant exist */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.home
+{
+    background-color: green;
+    height: 100vh;
+    width: 100vw;
+}
+
+.about
+{
+    background-color: blue;
+    height: 50vh;
+    width: 50vw;
+}

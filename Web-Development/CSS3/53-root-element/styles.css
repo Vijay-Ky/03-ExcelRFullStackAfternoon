@@ -1,0 +1,26 @@
+/* 
+:root root element of the document, higher specificity
+html element
+general styles
+css variables
+*/
+
+/* html
+{
+    font-size: 10px;
+} */
+
+:root 
+{
+    font-size: 10px;
+    background: blue;
+    font-style: italic;
+}
+.absolute
+{
+    font-size: 30px;
+}
+.relative
+{
+    font-size: 25px;
+}

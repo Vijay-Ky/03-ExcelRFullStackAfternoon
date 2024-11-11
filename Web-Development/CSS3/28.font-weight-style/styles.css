@@ -1,0 +1,27 @@
+body
+{
+    font-family: monospace;
+    font-style: italic;
+}
+
+.main-heading
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.sub-heading
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+}
+
+.one
+{
+    font-weight: bold;
+}
+
+.two
+{
+    font-weight: lighter;
+}

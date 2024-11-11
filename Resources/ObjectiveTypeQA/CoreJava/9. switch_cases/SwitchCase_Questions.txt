@@ -1,0 +1,1606 @@
+							Switch_Case_Answers
+						---------------------------
+
+**Question 1:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int day = 3;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            default:
+                System.out.println("Other day");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Monday
+b) Tuesday
+c) Wednesday
+d) Other day
+
+
+**Question 2:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        char grade = 'B';
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent");
+                break;
+            case 'B':
+                System.out.println("Good");
+                break;
+            case 'C':
+                System.out.println("Average");
+                break;
+            default:
+                System.out.println("Fail");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Excellent
+b) Good
+c) Average
+d) Fail
+
+
+**Question 3:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 5;
+        switch (num) {
+            case 1:
+            case 3:
+            case 5:
+                System.out.println("Odd");
+                break;
+            case 2:
+            case 4:
+            case 6:
+                System.out.println("Even");
+                break;
+            default:
+                System.out.println("Other");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 4?
+a) Odd
+b) Even
+c) Other
+
+
+**Question 4:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        String month = "January";
+        switch (month) {
+            case "January":
+                System.out.println("First month of the year");
+                break;
+            case "February":
+                System.out.println("Second month of the year");
+                break;
+            case "March":
+                System.out.println("Third month of the year");
+                break;
+            default:
+                System.out.println("Other month");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `month` as "March"?
+a) First month of the year
+b) Second month of the year
+c) Third month of the year
+d) Other month
+
+
+**Question 5:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 10:
+                System.out.println("Value is 10");
+            case 20:
+                System.out.println("Value is 20");
+            default:
+                System.out.println("Value is neither 10 nor 20");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Value is 10
+b) Value is 20
+c) Value is neither 10 nor 20
+d) Both Value is 10 and Value is 20
+
+
+**Question 6:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int choice = 3;
+        switch (choice) {
+            case 1:
+                System.out.println("Choice 1");
+                break;
+            case 2:
+                System.out.println("Choice 2");
+                break;
+            case 3:
+                System.out.println("Choice 3");
+                break;
+            case 4:
+                System.out.println("Choice 4");
+                break;
+            default:
+                System.out.println("Invalid choice");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `choice` as 5?
+a) Choice 1
+b) Choice 2
+c) Choice 3
+d) Invalid choice
+
+
+**Question 7:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int number = 10;
+        switch (number) {
+            case 5:
+                System.out.println("Value is 5");
+            case 10:
+                System.out.println("Value is 10");
+            case 15:
+                System.out.println("Value is 15");
+            default:
+                System.out.println("Value is not recognized");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `number` as 10?
+a) Value is 5
+b) Value is 10
+c) Value is 15
+d) Value is not recognized
+
+
+**Question 8:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int choice = 2;
+        switch (choice) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+            case 3:
+                System.out.println("Three");
+                break;
+            default:
+                System.out.println("Other");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `choice` as 2?
+a) One
+b) Two
+c) Three
+d) Two Three
+
+
+**Question 9:**
+```
+ChatGPT
+java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 2;
+        switch (num) {
+            case 1:
+                System.out.println("Value is 1");
+                break;
+            case 2:
+                System.out.println("Value is 2");
+                break;
+            default:
+                System.out.println("Value is not recognized");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 3?
+a) Value is 1
+b) Value is 2
+c) Value is not recognized
+
+
+**Question 10:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int value = 7;
+        switch (value) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 7:
+                System.out.println("Value is 7");
+                break;
+            case 9:
+                System.out.println("Value is 9");
+                break;
+            default:
+                System.out.println("Value is not recognized");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `value` as 7?
+a) Value is 5
+b) Value is 7
+c) Value is 9
+d) Value is not recognized
+
+
+
+**Question 11:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int day = 5;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            default:
+                System.out.println("Other day");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Monday
+b) Tuesday
+c) Other day
+d) Compilation error
+
+
+**Question 12:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        double number = 3.14;
+        switch (number) {
+            case 1.0:
+                System.out.println("One");
+                break;
+            case 3.14:
+                System.out.println("Pi");
+                break;
+            default:
+                System.out.println("Other");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) One
+b) Pi
+c) Other
+d) Compilation error
+
+
+**Question 13:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        String fruit = "Apple";
+        switch (fruit) {
+            case "Apple":
+                System.out.println("Red fruit");
+                break;
+            case "Banana":
+                System.out.println("Yellow fruit");
+                break;
+            default:
+                System.out.println("Unknown fruit");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Red fruit
+b) Yellow fruit
+c) Unknown fruit
+d) Compilation error
+
+
+**Question 14:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+                break;
+            default:
+                System.out.println("Value is not recognized");
+        }
+    }
+}
+```
+What will be the output of the above code if executed without any break statements?
+a) Value is 5
+b) Value is 10
+c) Value is 5Value is 10
+d) Compilation error
+
+
+**Question 15:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 3;
+        switch (num) {
+            case 1:
+            case 2:
+            case 3:
+                System.out.println("Small number");
+            case 4:
+            case 5:
+            case 6:
+                System.out.println("Medium number");
+            default:
+                System.out.println("Large number");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 3?
+a) Small number
+b) Medium number
+c) Small numberMedium number
+d) Small numberMedium numberLarge number
+
+
+**Question 16:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        char grade = 'A';
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent");
+            case 'B':
+                System.out.println("Good");
+            case 'C':
+                System.out.println("Average");
+            default:
+                System.out.println("Fail");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `grade` as 'A'?
+a) Excellent
+b) ExcellentGoodAverageFail
+c) ExcellentGood
+d) Compilation error
+
+
+**Question 17:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int value = 4;
+        switch (value) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) One
+b) Two
+c) Three
+d) Compilation error
+
+
+**Question 18:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 10:
+                System.out.println("Value is 10");
+            case 20:
+                System.out.println("Value is 20");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) Value is 10
+b) Value is 20
+c) Value is 10Value is 20
+d) Other value
+
+
+**Question 19:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        String day = "Monday";
+        switch (day) {
+            case "Monday":
+                System.out.println("First day of the week");
+                break;
+            case "Tuesday":
+                System.out.println("Second day of the week");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) First day of the week
+b) Second day of the week
+c) Compilation error
+ChatGPT
+
+d) No output
+
+
+**Question 20:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 1;
+        switch (x) {
+            case 1:
+                System.out.println("Value is 1");
+            case 2:
+                System.out.println("Value is 2");
+                break;
+            case 3:
+                System.out.println("Value is 3");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `x` as 1?
+a) Value is 1
+b) Value is 2
+c) Value is 1Value is 2
+d) Compilation error
+
+
+
+**Question 21:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 1;
+        switch (x) {
+            case 1:
+                System.out.println("Value is 1");
+            case 2:
+                System.out.println("Value is 2");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `x` as 1?
+a) Value is 1
+b) Value is 1Value is 2
+c) Value is 1Value is 2Default case
+d) Compilation error
+
+
+**Question 22:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 5;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 5?
+a) One
+b) Five
+c) OneFive
+d) OneFiveTenDefault case
+
+
+**Question 23:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 5;
+        switch (x) {
+            default:
+                System.out.println("Default case");
+            case 1:
+                System.out.println("Value is 1");
+            case 2:
+                System.out.println("Value is 2");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `x` as 5?
+a) Default case
+b) Default caseValue is 1
+c) Default caseValue is 1Value is 2
+d) Compilation error
+
+
+**Question 24:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 10;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 10:
+                System.out.println("Ten");
+            case 100:
+                System.out.println("Hundred");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 10?
+a) One
+b) Ten
+c) TenHundredDefault case
+d) TenHundred
+
+
+**Question 25:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int value = 4;
+        switch (value) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code if executed?
+a) One
+b) Two
+c) Three
+d) No output
+
+
+**Question 26:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 10;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            default:
+                System.out.println("Default case");
+            case 10:
+                System.out.println("Ten");
+                break;
+            case 100:
+                System.out.println("Hundred");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 10?
+a) One
+b) Default case
+c) Ten
+d) Default caseTen
+
+
+**Question 27:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        char grade = 'B';
+        switch (grade) {
+            case 'A':
+                System.out.println("A Grade");
+            case 'B':
+                System.out.println("B Grade");
+            case 'C':
+                System.out.println("C Grade");
+            default:
+                System.out.println("Default Grade");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `grade` as 'B'?
+a) A Grade
+b) B Grade
+c) B GradeC GradeDefault Grade
+d) B GradeC Grade
+
+
+**Question 28:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 3;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+            case 4:
+                System.out.println("Four");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `x` as 3?
+a) One
+b) Two
+c) Three
+d) ThreeFourDefault case
+
+
+**Question 29:**
+ChatGPT
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 10;
+        switch (num) {
+            case 10:
+                System.out.println("Value is 10");
+                break;
+            case 20:
+                System.out.println("Value is 20");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code if executed with `num` as 10?
+a) Value is 10
+b) Value is 20
+c) No output
+d) Compilation error
+
+
+
+**Question 30:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        for (int i = 0; i < 3; i++) {
+            switch (x) {
+                case 5:
+                    System.out.println("Value is 5");
+                    break;
+                case 10:
+                    System.out.println("Value is 10");
+                    break;
+                default:
+                    System.out.println("Other value");
+            }
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 10
+c) Other value
+d) Value is 10Value is 10Value is 10
+
+
+**Question 31:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int i = 0;
+        while (i < 3) {
+            int num = 2;
+            switch (num) {
+                case 1:
+                    System.out.println("One");
+                    break;
+                case 2:
+                    System.out.println("Two");
+                    break;
+                default:
+                    System.out.println("Other");
+            }
+            i++;
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) TwoTwoTwo
+d) TwoOther
+
+
+**Question 32:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int i = 0;
+        do {
+            int x = 5;
+            switch (x) {
+                case 3:
+                    System.out.println("Three");
+                    break;
+                case 5:
+                    System.out.println("Five");
+                    break;
+                default:
+                    System.out.println("Other");
+            }
+            i++;
+        } while (i < 2);
+    }
+}
+```
+What will be the output of the above code?
+a) Three
+b) Five
+c) Other
+d) FiveFive
+
+
+**Question 33:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 7;
+        if (num > 5) {
+            switch (num) {
+                case 6:
+                    System.out.println("Six");
+                    break;
+                case 7:
+                    System.out.println("Seven");
+                    break;
+                default:
+                    System.out.println("Other");
+            }
+        } else {
+            System.out.println("Less than or equal to 5");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Six
+b) Seven
+c) Less than or equal to 5
+d) Other
+
+
+**Question 34:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 5;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+Outside switch
+b) Value is 10
+Outside switch
+c) Value is 5
+d) Compilation error
+
+
+**Question 35:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 4;
+        switch (num) {
+            case 2:
+                System.out.println("Two");
+                break;
+            case 4:
+                System.out.println("Four");
+            case 6:
+                System.out.println("Six");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Four
+b) FourSixDefault case
+c) FourSix
+d) Compilation error
+
+
+**Question 36:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+                continue;
+            default:
+                System.out.println("Other value");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 10
+c) Compilation error
+d) No output
+
+
+**Question 37:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        String result = (x > 5) ? "Greater than 5" : switch (x) {
+            case 5:
+                yield "Equal to 5";
+            case 10:
+                yield "Equal to 10";
+            default:
+                yield "Other value";
+        };
+        System.out.println(result);
+    }
+}
+```
+What will be the output of the above code?
+a) Greater than 5
+b) Equal to 5
+c) Equal to 10
+d) Other value
+
+ChatGPT
+".
+
+
+**Question 38:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 2;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) Default case
+d) Compilation error
+
+
+**Question 39:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 1;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+            case 2:
+                System.out.println("Two");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) OneTwo
+d) OneTwoDefault case
+
+
+**Question 40:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 3;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) No output
+d) Compilation error
+
+
+**Question 41:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 2;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) Three
+d) Compilation error
+
+
+**Question 42:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 3;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            case 3:
+                System.out.println("Three");
+            case 4:
+                System.out.println("Four");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) Three
+d) ThreeFourDefault case
+
+
+**Question 43:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int value = 5;
+        switch (value) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Five
+c) FiveTenDefault case
+d) Compilation error
+
+
+**Question 44:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 3;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Default case");
+                break;
+            case 3:
+                System.out.println("Three");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) Default case
+d) Three
+
+
+**Question 45:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 1;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+            case 2:
+                System.out.println("Two");
+            case 3:
+                System.out.println("Three");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) OneTwo
+c) OneTwoThree
+d) OneTwoThreeDefault case
+
+
+**Question 46:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 5;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+            default:
+                System.out.println("Default case");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Five
+c) FiveTenDefault case
+d) Compilation error
+
+ChatGPT
+ is executed. Therefore, "FiveTenDefault case" will be printed.
+
+**Question 47:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 3;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            default:
+                System.out.println("Default case");
+            case 2:
+                System.out.println("Two");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Default case
+c) Two
+d) Default caseTwo
+
+
+**Question 48:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 1;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Default case");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) One
+Outside switch
+b) Two
+Outside switch
+c) One
+d) Compilation error
+
+
+**Question 49:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 7;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+            case 7:
+                System.out.println("Value is 7");
+                break;
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 10
+c) Value is 7
+d) Compilation error
+
+
+**Question 50:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+                continue;
+            default:
+                System.out.println("Other value");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 10
+c) Compilation error
+d) No output
+
+
+**Question 51:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 6;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 6:
+                System.out.println("Value is 6");
+            case 7:
+                System.out.println("Value is 7");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 6
+c) Value is 7
+d) Value is 6Value is 7
+
+
+**Question 52:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 5;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Five
+c) FiveTen
+d) FiveTenDefault case
+
+
+**Question 53:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 3;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            default:
+                System.out.println("Default case");
+            case 2:
+                System.out.println("Two");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Default case
+c) Two
+d) Default caseTwo
+
+
+**Question 54:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 5;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) One
+Outside switch
+b) Five
+Outside switch
+c) Five
+d) Compilation error
+
+
+**Question
+ChatGPT
+ 55:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 2;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+            case 3:
+                System.out.println("Three");
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) TwoThreeDefault case
+d) Compilation error
+
+
+**Question 56:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 1;
+        switch (x) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Default case");
+        }
+    }
+}
+```
+What will be the output of the above code?
+a) One
+b) Two
+c) Default case
+d) Compilation error
+
+
+**Question 57:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 0;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+                break;
+            default:
+                System.out.println("Default case");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) One
+Outside switch
+b) Two
+Outside switch
+c) Default case
+Outside switch
+d) Compilation error
+
+
+**Question 58:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int x = 10;
+        switch (x) {
+            case 5:
+                System.out.println("Value is 5");
+                break;
+            case 10:
+                System.out.println("Value is 10");
+            case 7:
+                System.out.println("Value is 7");
+                break;
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) Value is 5
+b) Value is 10
+c) Value is 7
+Outside switch
+d) Compilation error
+
+
+**Question 59:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 5;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 5:
+                System.out.println("Five");
+            case 10:
+                System.out.println("Ten");
+                break;
+            default:
+                System.out.println("Other value");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) One
+Outside switch
+b) Five
+Outside switch
+c) Five
+Ten
+Outside switch
+d) Compilation error
+
+
+**Question 60:**
+```java
+public class SwitchExample {
+    public static void main(String[] args) {
+        int num = 2;
+        switch (num) {
+            case 1:
+                System.out.println("One");
+                break;
+            case 2:
+                System.out.println("Two");
+            case 3:
+                System.out.println("Three");
+            default:
+                System.out.println("Default case");
+        }
+        System.out.println("Outside switch");
+    }
+}
+```
+What will be the output of the above code?
+a) One
+Outside switch
+b) Two
+Three
+Default case
+Outside switch
+c) Two
+Three
+Outside switch
+d) Compilation error
+

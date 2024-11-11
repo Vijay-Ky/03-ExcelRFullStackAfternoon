@@ -1,0 +1,33 @@
+<p id="p1">initial content</p>
+<input type="button" value="sortAscending" onclick="sortAscending()" />
+<input type="button" value="sortDescending" onclick="sortDescending()" />
+<input
+  type="button"
+  value="populate array content"
+  onclick="readArrayContent()"
+/>
+
+<script>
+  var elements = ["z", "v", "f", "h", "n", "i"];
+  //var elements = [10, 100, 2, 7, 1, 0];
+  function readArrayContent() {
+    document.getElementById("p1").innerHTML = elements.join(", ");
+  }
+  function sortAscending() {
+    //to sort the elements of array
+    //default sorting is ASCII coding order
+    //sorting based on ascii not on quantity
+    elements.sort();
+    readArrayContent();
+  }
+
+  function sortDescending() {
+    //to sort the elements of array
+    //default sorting is ASCII coding order
+    //sorting based on ascii not on quantity
+    elements.sort(function (a, b) {
+      return b.localeCompare(a);
+    });
+    readArrayContent();
+  }
+</script>

@@ -1,0 +1,8 @@
+Java JDK 8 features
+---------------------------------------
+1. Lambda Expressions
+2. Interface enhancement
+3. forEach
+4. Date and Time API
+5. Streams API
+6. Enhancements to the Collection API

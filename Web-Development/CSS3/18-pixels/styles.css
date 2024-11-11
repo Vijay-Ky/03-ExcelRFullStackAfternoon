@@ -1,0 +1,10 @@
+/* PIXELS - Absolute, one dot on the screen */
+
+h3
+{
+    font-size: 60px;
+    background: blue;
+    color: white;
+    width: 1000px;
+    height: 800px;
+}

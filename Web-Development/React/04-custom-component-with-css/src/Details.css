@@ -1,0 +1,24 @@
+.Details
+{
+    text-align: center;
+}
+.Details-h1
+{
+    color: blue;
+    background: yellowgreen;
+    font-size: 30px;
+}
+.Details-h2
+{
+    color: black;
+    background: white;
+    font-size: 20px;
+}
+.Details-p
+{
+    color: yellowgreen;
+    background: black;
+    font-size: 10px;
+}
+
+

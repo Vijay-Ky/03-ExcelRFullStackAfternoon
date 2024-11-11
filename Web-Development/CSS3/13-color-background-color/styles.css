@@ -1,0 +1,21 @@
+/* color properties */
+/* color */
+/* background color */
+/* background */
+
+/* *
+{
+    background: url('./hand-holding-coffee.jpg') ;
+} */
+
+#first
+{
+    color: white;
+    background-color: blue;
+}
+
+#second
+{
+    color: red;
+    background: yellow;
+}

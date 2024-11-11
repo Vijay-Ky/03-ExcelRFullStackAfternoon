@@ -1,0 +1,9 @@
+Airtel 2nd floor
+Excelr%2023
+
+nam@codejava.net
+nam2020
+
+https://spring.io/tools
+
+INSERT INTO `users` VALUES(24,'vijay@excelr.com',1,'Vijay','Kumar','$2a$10$eBJf7kQdkW9q9PW0o7f6WO/iSmynhZGIfElv4AKppr1CWob7iZFSC','vijay.png');

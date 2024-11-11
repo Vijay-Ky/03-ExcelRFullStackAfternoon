@@ -1,0 +1,7503 @@
+					UnaryOperators_AnswersSet2
+					---------------------------
+Question: 1
+What is the value of `x` after executing the following Java code?
+
+```java
+int x = 5;
+x = ++x + x--;
+```
+
+A) 10
+B) 11
+C) 12
+D) 13
+
+
+
+
+Question 2:
+What is the value of `a` after the following code is executed?
+
+```java
+int a = 8;
+a = a++ + ++a - a-- + --a;
+```
+
+A) 8
+B) 9
+C) 10
+D) 11
+
+
+Question 3:
+What will be the value of `x` after the code is executed?
+
+```java
+int x = 3;
+x = x++ + ++x - x-- + --x;
+```
+
+A) 3
+B) 4
+C) 5
+D) 6
+
+
+Question 4:
+Given the following code snippet:
+
+```java
+int num = 7;
+num = num++ + ++num - num-- + --num;
+```
+
+What is the final value of `num`?
+
+A) 7
+B) 8
+C) 9
+D) 10
+
+
+Question 5:
+What will be the output of the following Java code?
+
+```java
+int x = 4;
+int y = x++ + ++x - --x - x--;
+System.out.println(y);
+```
+
+A) 1
+B) 2
+C) 3
+D) 4
+
+
+Question 6:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 10;
+counter = counter-- + --counter + counter++ - ++counter;
+```
+
+A) 10
+B) 9
+C) 11
+D) 8
+
+
+Question 7:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 6;
+result = result++ + ++result - result-- + --result;
+```
+
+A) 6
+B) 7
+C) 8
+D) 9
+
+
+Question 8:
+What is the value of `value` after executing the following code?
+
+```java
+int value = 15;
+value = value++ - --value + value-- + ++value;
+```
+
+A) 15
+B) 16
+C) 17
+D) 18
+
+
+Question 9:
+Given the code snippet:
+
+```java
+int num = 5;
+num = num++ - num-- + ++num - --num;
+```
+
+What is the final value of `num`?
+
+A) 5
+B) 4
+C) 3
+D) 6
+
+
+Question 10:
+What will be the output of the following Java code?
+
+```java
+int a = 7;
+int b = 3;
+int result = a-- - --a + ++b + b++;
+System.out.println(result);
+```
+
+A) 12
+B) 11
+C) 10
+D) 9
+
+
+(Continued with 40 more questions...)
+
+continue
+
+Question 11:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 10;
+x = x-- - --x + ++x - x++;
+```
+
+A) 10
+B) 9
+C) 11
+D) 8
+
+
+Question 12:
+What is the output of the following Java code?
+
+```java
+int value = 6;
+value = value-- + ++value - value++ - --value;
+System.out.println(value);
+```
+
+A) 5
+B) 6
+C) 7
+D) 8
+
+
+Question 13:
+Given the code snippet:
+
+```java
+int num = 4;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 4
+B) 5
+C) 3
+D) 6
+
+
+Question 14:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 8;
+result = result++ + --result - result-- + ++result;
+```
+
+A) 8
+B) 7
+C) 6
+D) 9
+
+
+Question 15:
+What is the output of the following Java code?
+
+```java
+int x = 5;
+int y = 3;
+int z = x-- + --y - x++;
+System.out.println(z);
+```
+
+A) 4
+B) 5
+C) 3
+D) 6
+
+
+Question 16:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 7;
+counter = counter++ - --counter + counter-- - ++counter;
+```
+
+A) 7
+B) 8
+C) 6
+D) 9
+
+
+Question 17:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 12;
+value = value++ + ++value - --value + value--;
+```
+
+A) 13
+B) 14
+C) 12
+D) 15
+
+
+Question 18:
+Given the code snippet:
+
+```java
+int num = 9;
+num = num++ - ++num + num-- - --num;
+```
+
+What is the final value of `num`?
+
+A) 9
+B) 8
+C) 10
+D) 7
+
+
+Question 19:
+What will be the output of the following Java code?
+
+```java
+int a = 4;
+int b = 2;
+int result = a++ - ++b + b-- + --a;
+System.out.println(result);
+```
+
+A) 3
+B) 4
+C) 5
+D) 2
+
+
+Question 20:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 6;
+x = x++ + --x - x-- + ++x;
+```
+
+A) 6
+B) 7
+C) 5
+D) 8
+
+
+Question 21:
+What is the output of the following Java code?
+
+```java
+int value = 10;
+value = value-- - --value + value++ + ++value;
+System.out.println(value);
+```
+
+A) 10
+B) 9
+C) 8
+D) 11
+
+
+Question 22:
+Given the code snippet:
+
+```java
+int num = 6;
+num = num-- + ++num - --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 7
+B) 6
+C) 5
+D) 8
+
+
+Question 23:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 9;
+result = result++ - --result + ++result - result--;
+```
+
+A) 10
+B) 9
+C) 8
+D) 11
+
+
+Question 24:
+What is the output of the following Java code?
+
+```java
+int x = 8;
+int y = 4;
+int z = x-- + ++y - y-- - --x;
+System.out.println(z);
+```
+
+A) 7
+B) 6
+C) 8
+D) 5
+
+
+Question 25:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 5;
+counter = counter++ + --counter - ++counter - counter--;
+```
+
+A) 5
+B) 4
+C) 6
+D) 3
+
+
+Question 26:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 7;
+value = value-- - ++value + value++ - --value;
+```
+
+A) 8
+B) 7
+C) 6
+D) 9
+
+
+Question 27:
+Given the code snippet:
+
+```java
+int num = 10;
+num = num++ - num-- + --num - ++num;
+```
+
+What is the final value of `num`?
+
+A) 10
+B) 9
+C) 11
+D) 8
+
+
+Question 28:
+What will be the output of the following Java code?
+
+```java
+int a = 5;
+int b = 3;
+int result = a-- + ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 5
+B) 6
+C) 4
+D) 3
+
+
+Question 29:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 12;
+x = x++ - x-- + ++x - --x;
+```
+
+A) 11
+B) 10
+C) 12
+D) 9
+
+
+Question 30:
+What is the output of the following Java code?
+
+```java
+int value = 8;
+value = value++ + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 8
+B) 9
+C) 7
+D) 10
+
+
+Question 31:
+Given the code snippet:
+
+```java
+int num = 11;
+num = num-- + ++num - num++ - --num;
+```
+
+What is the final value of `num`?
+
+A) 10
+B) 9
+C) 11
+D) 8
+
+
+Question 32:
+What will be the value of `result` after executing the code below?
+
+
+```java
+int result = 7;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 6
+B) 7
+C) 8
+D) 5
+
+
+Question 33:
+What is the output of the following Java code?
+
+```java
+int x = 9;
+int y = 2;
+int z = x-- - --y + y++ + ++x;
+System.out.println(z);
+```
+
+A) 9
+B) 8
+C) 10
+D) 7
+
+
+Question 34:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 8;
+counter = counter-- + ++counter - counter++ - --counter;
+```
+
+A) 8
+B) 7
+C) 9
+D) 6
+
+
+Question 35:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 11;
+value = value-- - ++value + --value - value++;
+```
+
+A) 11
+B) 12
+C) 10
+D) 9
+
+
+Question 36:
+Given the code snippet:
+
+```java
+int num = 13;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 12
+B) 13
+C) 14
+D) 11
+
+
+Question 37:
+What will be the output of the following Java code?
+
+```java
+int a = 6;
+int b = 4;
+int result = a++ + ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 6
+B) 7
+C) 5
+D) 8
+
+
+Question 38:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 15;
+x = x-- - --x + ++x - x++;
+```
+
+A) 14
+B) 15
+C) 13
+D) 16
+
+
+Question 39:
+What is the output of the following Java code?
+
+```java
+int value = 9;
+value = value++ - --value + value++ + ++value;
+System.out.println(value);
+```
+
+A) 9
+B) 8
+C) 10
+D) 11
+
+
+Question 40:
+Given the code snippet:
+
+```java
+int num = 14;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 12
+B) 14
+C) 13
+D) 11
+
+
+Question 41:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 10;
+result = result++ + --result - result-- + ++result;
+```
+
+A) 9
+B) 10
+C) 8
+D) 11
+
+
+Question 42:
+What is the output of the following Java code?
+
+```java
+int x = 11;
+int y = 3;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 9
+B) 10
+C) 8
+D) 7
+
+
+Question 43:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 6;
+counter = counter++ - --counter + ++counter - counter--;
+```
+
+A) 6
+B) 7
+C) 5
+D) 8
+
+
+Question 44:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 8;
+value = value-- + ++value - --value + value++;
+```
+
+A) 7
+B) 8
+C) 6
+D) 9
+
+
+Question 45:
+Given the code snippet:
+
+```java
+int num = 16;
+num = num++ + num-- - --num - ++num;
+```
+
+What is the final value of `num`?
+
+A) 16
+B) 15
+C) 14
+D) 17
+
+
+Question 46:
+What will be the output of the following Java code?
+
+```java
+int a = 8;
+int b = 5;
+int result = a++ - ++b + b-- + --a;
+System.out.println(result);
+```
+
+A) 5
+B) 6
+C) 4
+D) 3
+
+
+Question 47:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 17;
+x = x-- + --x - x++ + ++x;
+```
+
+A) 17
+B) 18
+C) 16
+D) 19
+
+
+Question 48:
+What is the output of the following Java code?
+
+```java
+int value = 11;
+value = value++ + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 12
+B) 11
+C) 10
+D) 9
+
+
+Question 49:
+Given the code snippet:
+
+```java
+int num = 18;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 17
+B) 18
+C) 16
+D) 19
+
+
+Question 50:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 12;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 12
+B) 11
+C) 10
+D) 9
+
+
+Question 51:
+What is the output of the following Java code?
+
+```java
+int x = 20;
+int y = 7;
+int z = x-- + --y - y++ - ++x;
+System.out.println(z);
+```
+
+A) 20
+B) 21
+C) 19
+D) 22
+
+
+Question 52:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 9;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 8
+B) 9
+C) 10
+D) 7
+
+
+Question 53:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 13;
+value = value++ + --value - ++value + value--;
+```
+
+A) 14
+B) 13
+C) 12
+D) 15
+
+
+Question 54:
+Given the code snippet:
+
+```java
+int num = 22;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 22
+B) 23
+C) 24
+D) 21
+
+
+Question 55:
+What will be the output of the following Java code?
+
+```java
+int a = 10;
+int b = 6;
+int result = a++ + ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 10
+B) 9
+C) 11
+D) 8
+
+
+Question 56:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 24;
+x = x++ - --x + ++x - x++;
+```
+
+A) 25
+B) 24
+C) 26
+D) 23
+
+
+Question 57:
+What is the output of the following Java code?
+
+```java
+int value = 14;
+value = value-- + ++value - value++ + --value;
+System.out.println(value);
+```
+
+A) 14
+B) 13
+C) 15
+D) 12
+
+
+Question 58:
+Given the code snippet:
+
+```java
+int num = 26;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 25
+B) 24
+C) 26
+D) 23
+
+
+Question 59:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 14;
+result = result++ + --result - result-- + ++result;
+```
+
+A) 14
+B) 13
+C) 12
+D) 15
+
+
+Question 60:
+What is the output of the following Java code?
+
+```java
+int x = 18;
+int y = 4;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 19
+B) 18
+C) 17
+D) 16
+
+
+Question 61:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 11;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 11
+B) 10
+C) 12
+D) 9
+
+
+Question 62:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 15;
+value = value-- + --value - ++value + value++;
+```
+
+A) 15
+B) 14
+C) 16
+D) 13
+
+
+Question 63:
+Given the code snippet:
+
+```java
+int num = 28;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 29
+B) 28
+C) 30
+D) 27
+
+
+Question 64:
+What will be the output of the following Java code?
+
+```java
+int a = 12;
+int b = 8;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 3
+B) 4
+C) 5
+D) 2
+
+
+Question 65:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 30;
+x = x-- - --x + ++x - x++;
+```
+
+A) 31
+B) 30
+C) 32
+D) 29
+
+
+Question 66:
+What is the output of the following Java code?
+
+```java
+int value = 16;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 16
+B) 15
+C) 14
+D) 17
+
+
+Question 67:
+Given the code snippet:
+
+```java
+int num = 32;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 31
+B) 30
+C) 33
+D) 29
+
+
+Question 68:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 16;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 16
+B) 15
+C) 14
+D) 17
+
+
+Question 69:
+What is the output of the following Java code?
+
+```java
+int x = 20;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 20
+B) 19
+C) 18
+D) 21
+
+
+Question 70:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 13;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 13
+B) 14
+C) 12
+D) 15
+
+
+Question 71:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 18;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 18
+B) 17
+C) 16
+D) 
+
+19
+
+
+Question 72:
+Given the code snippet:
+
+```java
+int num = 34;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 34
+B) 33
+C) 35
+D) 32
+
+
+Question 73:
+What will be the output of the following Java code?
+
+```java
+int a = 14;
+int b = 7;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 5
+B) 6
+C) 7
+D) 4
+
+
+Question 74:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 36;
+x = x-- - --x + ++x - x++;
+```
+
+A) 36
+B) 35
+C) 34
+D) 37
+
+
+Question 75:
+What is the output of the following Java code?
+
+```java
+int value = 20;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 20
+B) 19
+C) 18
+D) 21
+
+
+Question 76:
+Given the code snippet:
+
+```java
+int num = 38;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 37
+B) 36
+C) 39
+D) 35
+
+
+Question 77:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 18;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 18
+B) 17
+C) 16
+D) 19
+
+
+Question 78:
+What is the output of the following Java code?
+
+```java
+int x = 22;
+int y = 6;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 21
+B) 22
+C) 23
+D) 20
+
+
+Question 79:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 15;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 15
+B) 14
+C) 16
+D) 13
+
+
+Question 80:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 24;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 25
+B) 24
+C) 23
+D) 26
+
+
+Question 81:
+Given the code snippet:
+
+```java
+int num = 40;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 40
+B) 41
+C) 42
+D) 39
+
+
+Question 82:
+What will be the output of the following Java code?
+
+```java
+int a = 16;
+int b = 8;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 8
+B) 7
+C) 6
+D) 9
+
+
+Question 83:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 42;
+x = x-- - --x + ++x - x++;
+```
+
+A) 42
+B) 41
+C) 40
+D) 43
+
+
+Question 84:
+What is the output of the following Java code?
+
+```java
+int value = 26;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 85:
+Given the code snippet:
+
+```java
+int num = 44;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 43
+B) 42
+C) 45
+D) 41
+
+
+Question 86:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 26;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 87:
+What is the output of the following Java code?
+
+```java
+int x = 24;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 23
+B) 24
+C) 25
+D) 22
+
+
+Question 88:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 17;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 17
+B) 16
+C) 18
+D) 15
+
+
+Question 89:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 28;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 28
+B) 27
+C) 26
+D) 29
+
+
+Question 90:
+Given the code snippet:
+
+```java
+int num = 46;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 47
+B) 46
+C) 45
+D) 48
+
+
+Question 91:
+What will be the output of the following Java code?
+
+```java
+int a = 18;
+int b = 9;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 9
+B) 8
+C) 7
+D) 10
+
+
+Question 92:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 48;
+x = x-- - --x + ++x - x++;
+```
+
+A) 48
+B) 47
+C) 46
+D) 49
+
+
+
+Question 93:
+What is the output of the following Java code?
+
+```java
+int value = 30;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 30
+B) 29
+C) 28
+D) 31
+
+
+Question 94:
+Given the code snippet:
+
+```java
+int num = 50;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 49
+B) 48
+C) 51
+D) 47
+
+
+Question 95:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 30;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 30
+B) 29
+C) 28
+D) 31
+
+
+Question 96:
+What is the output of the following Java code?
+
+```java
+int x = 26;
+int y = 4;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 25
+B) 26
+C) 27
+D) 24
+
+
+Question 97:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 19;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 19
+B) 18
+C) 20
+D) 17
+
+
+Question 98:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 32;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 32
+B) 31
+C) 30
+D) 33
+
+
+Question 99:
+Given the code snippet:
+
+```java
+int num = 52;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 52
+B) 53
+C) 54
+D) 51
+
+
+Question 100:
+What will be the output of the following Java code?
+
+```java
+int a = 20;
+int b = 10;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 10
+B) 9
+C) 8
+D) 11
+
+
+Question 101:
+What is the output of the following Java code?
+
+```java
+int x = 10;
+int y = 5;
+int z = x-- + --y - y++ - ++x;
+System.out.println(z);
+```
+
+A) 9
+B) 10
+C) 11
+D) 8
+
+
+Question 102:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 15;
+counter = counter-- + --counter - ++counter - counter--;
+```
+
+A) 14
+B) 15
+C) 16
+D) 13
+
+
+Question 103:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 20;
+value = value-- - --value + value++ - ++value;
+```
+
+A) 19
+B) 20
+C) 18
+D) 21
+
+
+Question 104:
+Given the code snippet:
+
+```java
+int num = 25;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 105:
+What will be the output of the following Java code?
+
+```java
+int a = 15;
+int b = 8;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 5
+B) 6
+C) 7
+D) 4
+
+
+Question 106:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 12;
+x = x-- - --x + ++x - x++;
+```
+
+A) 11
+B) 12
+C) 10
+D) 13
+
+
+Question 107:
+What is the output of the following Java code?
+
+```java
+int value = 17;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 16
+B) 17
+C) 18
+D) 15
+
+
+Question 108:
+Given the code snippet:
+
+```java
+int num = 22;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 21
+B) 22
+C) 23
+D) 20
+
+
+Question 109:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 19;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 18
+B) 19
+C) 17
+D) 20
+
+
+Question 110:
+What is the output of the following Java code?
+
+```java
+int x = 13;
+int y = 6;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 11
+B) 12
+C) 13
+D) 10
+
+
+Question 111:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 18;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 17
+B) 18
+C) 19
+D) 16
+
+
+Question 112:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 23;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 22
+B) 23
+C) 21
+D) 24
+
+
+Question 113:
+Given the code snippet:
+
+```java
+int num = 30;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 30
+B) 31
+C) 29
+D) 32
+
+
+Question 114:
+What will be the output of the following Java code?
+
+```java
+int a = 20;
+int b = 9;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 10
+B) 9
+C) 8
+D) 11
+
+
+Question 115:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 33;
+x = x-- - --x + ++x - x++;
+```
+
+A) 32
+B) 33
+C) 31
+D) 34
+
+
+Question 116:
+What is the output of the following Java code?
+
+```java
+int value = 22;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 23
+B) 22
+C) 21
+D) 24
+
+
+Question 117:
+Given the code snippet:
+
+```java
+int num = 34;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 33
+B) 34
+C) 32
+D) 35
+
+
+Question 118:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 21;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 21
+B) 20
+C) 19
+D) 22
+
+
+
+
+Question 119:
+What is the output of the following Java code?
+
+```java
+int x = 15;
+int y = 7;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 14
+B) 15
+C) 16
+D) 13
+
+
+Question 120:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 20;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 19
+B) 20
+C) 21
+D) 18
+
+
+Question 121:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 25;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 122:
+Given the code snippet:
+
+```java
+int num = 40;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 41
+B) 40
+C) 39
+D) 42
+
+
+Question 123:
+What will be the output of the following Java code?
+
+```java
+int a = 25;
+int b = 11;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 13
+B) 12
+C) 11
+D) 14
+
+
+Question 124:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 42;
+x = x-- - --x + ++x - x++;
+```
+
+A) 41
+B) 42
+C) 43
+D) 40
+
+
+Question 125:
+What is the output of the following Java code?
+
+```java
+int value = 28;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 29
+B) 28
+C) 27
+D) 30
+
+
+Question 126:
+Given the code snippet:
+
+```java
+int num = 45;
+num = num-- - ++num + --num - num++;
+```
+
+What is the final value of `num`?
+
+A) 44
+B) 43
+C) 46
+D) 42
+
+
+Question 127:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 28;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 27
+B) 26
+C) 25
+D) 29
+
+
+Question 128:
+What is the output of the following Java code?
+
+```java
+int x = 18;
+int y = 8;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 18
+B) 19
+C) 20
+D) 17
+
+
+Question 129:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 23;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 22
+B) 23
+C) 24
+D) 21
+
+
+Question 130:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 32;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 31
+B) 32
+C) 30
+D) 33
+
+
+Question 131:
+Given the code snippet:
+
+```java
+int num = 50;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 49
+B) 50
+C) 51
+D) 48
+
+
+Question 132:
+What will be the output of the following Java code?
+
+```java
+int a = 30;
+int b = 12;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 15
+B) 14
+C) 13
+D) 16
+
+
+Question 133:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 55;
+x = x-- - --x + ++x - x++;
+```
+
+A) 54
+B) 55
+C) 53
+D) 56
+
+
+Question 134:
+What is the output of the following Java code?
+
+```java
+int value = 33;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 32
+B) 33
+C) 31
+D) 34
+
+
+Question 135:
+Given the code snippet:
+
+```java
+int num = 60;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 61
+B) 60
+C) 59
+D) 62
+
+
+Question 136:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 33;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 32
+B) 31
+C) 30
+D) 34
+
+
+Question 137:
+What is the output of the following Java code?
+
+```java
+int x = 21;
+int y = 7;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 20
+B) 21
+C) 22
+D) 19
+
+
+Question 138:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 26;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 25
+B) 26
+C) 27
+D) 24
+
+
+Question 139:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 35;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 34
+B) 35
+C) 33
+D) 36
+
+
+Question 140:
+Given
+
+ the code snippet:
+
+```java
+int num = 65;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 66
+B) 65
+C) 64
+D) 67
+
+
+Question 141:
+What will be the output of the following Java code?
+
+```java
+int a = 35;
+int b = 13;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 19
+B) 18
+C) 17
+D) 20
+
+
+Question 142:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 70;
+x = x-- - --x + ++x - x++;
+```
+
+A) 69
+B) 70
+C) 68
+D) 71
+
+
+Question 143:
+What is the output of the following Java code?
+
+```java
+int value = 38;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 37
+B) 38
+C) 36
+D) 39
+
+
+Question 144:
+Given the code snippet:
+
+```java
+int num = 75;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 76
+B) 75
+C) 74
+D) 77
+
+
+Question 145:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 38;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 37
+B) 36
+C) 35
+D) 39
+
+
+Question 146:
+What is the output of the following Java code?
+
+```java
+int x = 24;
+int y = 8;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 16
+B) 17
+C) 18
+D) 15
+
+
+Question 147:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 29;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 28
+B) 29
+C) 30
+D) 27
+
+
+Question 148:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 40;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 39
+B) 40
+C) 38
+D) 41
+
+
+Question 149:
+Given the code snippet:
+
+```java
+int num = 85;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 86
+B) 85
+C) 84
+D) 87
+
+
+Question 150:
+What will be the output of the following Java code?
+
+```java
+int a = 40;
+int b = 14;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 25
+B) 24
+C) 23
+D) 26
+
+
+Question 151:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 90;
+x = x-- - --x + ++x - x++;
+```
+
+A) 89
+B) 90
+C) 88
+D) 91
+
+
+Question 152:
+What is the output of the following Java code?
+
+```java
+int value = 42;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 41
+B) 42
+C) 40
+D) 43
+
+
+Question 153:
+Given the code snippet:
+
+```java
+int num = 95;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 96
+B) 95
+C) 94
+D) 97
+
+
+Question 154:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 42;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 41
+B) 40
+C) 39
+D) 43
+
+
+Question 155:
+What is the output of the following Java code?
+
+```java
+int x = 27;
+int y = 9;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 19
+B) 20
+C) 21
+D) 18
+
+
+Question 156:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 32;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 31
+B) 32
+C) 33
+D) 30
+
+
+Question 157:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 45;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 44
+B) 45
+C) 43
+D) 46
+
+
+Question 158:
+Given the code snippet:
+
+```java
+int num = 100;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 101
+B) 100
+C) 99
+D) 102
+
+
+Question 159:
+What will be the output of the following Java code?
+
+
+```java
+int a = 45;
+int b = 15;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 28
+B) 27
+C) 26
+D) 29
+
+
+Question 160:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 110;
+x = x-- - --x + ++x - x++;
+```
+
+A) 109
+B) 110
+C) 108
+D) 111
+
+
+Question 161:
+What is the output of the following Java code?
+
+```java
+int value = 48;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 47
+B) 48
+C) 46
+D) 49
+
+
+Question 162:
+Given the code snippet:
+
+```java
+int num = 105;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 106
+B) 105
+C) 104
+D) 107
+
+
+Question 163:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 48;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 47
+B) 46
+C) 45
+D) 49
+
+
+Question 164:
+What is the output of the following Java code?
+
+```java
+int x = 30;
+int y = 10;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 20
+B) 21
+C) 22
+D) 19
+
+
+Question 165:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 35;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 34
+B) 35
+C) 36
+D) 33
+
+
+Question 166:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 50;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 49
+B) 50
+C) 48
+D) 51
+
+
+Question 167:
+Given the code snippet:
+
+```java
+int num = 115;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 116
+B) 115
+C) 114
+D) 117
+
+
+Question 168:
+What will be the output of the following Java code?
+
+```java
+int a = 50;
+int b = 16;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 34
+B) 33
+C) 32
+D) 35
+
+
+Question 169:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 120;
+x = x-- - --x + ++x - x++;
+```
+
+A) 119
+B) 120
+C) 118
+D) 121
+
+
+Question 170:
+What is the output of the following Java code?
+
+```java
+int value = 52;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 51
+B) 52
+C) 50
+D) 53
+
+
+Question 171:
+Given the code snippet:
+
+```java
+int num = 125;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 126
+B) 125
+C) 124
+D) 127
+
+
+Question 172:
+What will be the output of the following Java code?
+
+```java
+int a = 55;
+int b = 17;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 38
+B) 37
+C) 36
+D) 39
+
+
+Question 173:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 130;
+x = x-- - --x + ++x - x++;
+```
+
+A) 129
+B) 130
+C) 128
+D) 131
+
+
+Question 174:
+What is the output of the following Java code?
+
+```java
+int value = 54;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 53
+B) 54
+C) 52
+D) 55
+
+
+Question 175:
+Given the code snippet:
+
+```java
+int num = 135;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 136
+B) 135
+C) 134
+D) 137
+
+
+Question 176:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 54;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 53
+B) 52
+C) 51
+D) 55
+
+
+Question 177:
+What is the output of the following Java code?
+
+```java
+int x = 35;
+int y = 11;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 23
+B) 22
+C) 21
+D) 24
+
+
+Question 178:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 40;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 39
+B) 40
+C) 41
+D) 38
+
+
+Question 179:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 60;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 59
+B) 60
+C) 58
+D) 61
+
+
+Question 180:
+Given the code snippet:
+
+```java
+int num = 145;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 146
+B) 145
+C) 144
+D) 147
+
+
+Question 181:
+What will be the output of the following Java code?
+
+```java
+int a = 60;
+int b = 18;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 42
+B) 41
+C) 40
+D) 43
+
+
+Question 182:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 150;
+x = x-- - --x + ++x - x++;
+```
+
+A) 149
+B) 150
+C) 148
+D) 151
+
+
+Question 183:
+What is the output of the following Java code?
+
+```java
+int value = 62;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 61
+B) 62
+C) 60
+D) 63
+
+
+Question 184:
+Given the code snippet:
+
+```java
+int num = 155;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 156
+B) 155
+C) 154
+D) 157
+
+
+Question 185:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 62;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 61
+B) 60
+C) 59
+D) 63
+
+
+Question 186:
+What is the output of the following Java code?
+
+```java
+int x = 40;
+int y = 12;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 28
+B) 27
+C) 26
+D) 29
+
+
+Question 187:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 45;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 44
+B) 45
+C) 46
+D) 43
+
+
+Question 188:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 65;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 64
+B) 65
+C) 63
+D) 66
+
+
+Question 189:
+Given the code snippet:
+
+```java
+int num = 165;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 166
+B) 165
+C) 164
+D) 167
+
+
+Question 190:
+What will be the output of the following Java code?
+
+```java
+int a = 65;
+int b = 19;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 44
+B) 43
+C) 42
+D) 45
+
+
+Question 191:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 170;
+x = x-- - --x + ++x - x++;
+```
+
+A) 169
+B) 
+
+170
+C) 168
+D) 171
+
+
+Question 192:
+What is the output of the following Java code?
+
+```java
+int value = 67;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 66
+B) 67
+C) 65
+D) 68
+
+
+Question 193:
+Given the code snippet:
+
+```java
+int num = 175;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 176
+B) 175
+C) 174
+D) 177
+
+
+Question 194:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 67;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 66
+B) 65
+C) 64
+D) 68
+
+
+Question 195:
+What is the output of the following Java code?
+
+```java
+int x = 45;
+int y = 13;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 34
+B) 33
+C) 32
+D) 35
+
+
+Question 196:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 50;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 49
+B) 50
+C) 51
+D) 48
+
+
+Question 197:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 70;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 69
+B) 70
+C) 68
+D) 71
+
+
+Question 198:
+Given the code snippet:
+
+```java
+int num = 185;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 186
+B) 185
+C) 184
+D) 187
+
+
+Question 199:
+What will be the output of the following Java code?
+
+```java
+int a = 70;
+int b = 20;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 49
+B) 48
+C) 47
+D) 50
+
+
+Question 200:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 190;
+x = x-- - --x + ++x - x++;
+```
+
+A) 189
+B) 190
+C) 188
+D) 191
+
+
+Question 201:
+What is the output of the following Java code?
+
+```java
+int value = 72;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 71
+B) 72
+C) 70
+D) 73
+
+
+Question 202:
+Given the code snippet:
+
+```java
+int num = 195;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 196
+B) 195
+C) 194
+D) 197
+
+
+Question 203:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 72;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 71
+B) 70
+C) 69
+D) 73
+
+
+Question 204:
+What is the output of the following Java code?
+
+```java
+int x = 50;
+int y = 14;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 38
+B) 37
+C) 36
+D) 39
+
+
+Question 205:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 55;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 54
+B) 55
+C) 56
+D) 53
+
+
+Question 206:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 75;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 74
+B) 75
+C) 73
+D) 76
+
+
+Question 207:
+Given the code snippet:
+
+```java
+int num = 205;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 206
+B) 205
+C) 204
+D) 207
+
+
+Question 208:
+What will be the output of the following Java code?
+
+```java
+int a = 75;
+int b = 21;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 52
+B) 51
+C) 50
+D) 53
+
+
+Question 209:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 210;
+x = x-- - --x + ++x - x++;
+```
+
+A) 209
+B)
+
+ 210
+C) 208
+D) 211
+
+
+Question 210:
+What is the output of the following Java code?
+
+```java
+int value = 77;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 76
+B) 77
+C) 75
+D) 78
+
+
+Question 211:
+Given the code snippet:
+
+```java
+int num = 215;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 216
+B) 215
+C) 214
+D) 217
+
+
+Question 212:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 77;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 76
+B) 75
+C) 74
+D) 78
+
+
+Question 213:
+What is the output of the following Java code?
+
+```java
+int x = 55;
+int y = 15;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 42
+B) 41
+C) 40
+D) 43
+
+
+Question 214:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 60;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 59
+B) 60
+C) 61
+D) 58
+
+
+Question 215:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 80;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 79
+B) 80
+C) 78
+D) 81
+
+
+Question 216:
+Given the code snippet:
+
+```java
+int num = 225;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 226
+B) 225
+C) 224
+D) 227
+
+
+Question 217:
+What will be the output of the following Java code?
+
+```java
+int a = 80;
+int b = 22;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 55
+B) 54
+C) 53
+D) 56
+
+
+Question 218:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 230;
+x = x-- - --x + ++x - x++;
+```
+
+A) 229
+B) 230
+C) 228
+D) 231
+
+
+Question 219:
+What is the output of the following Java code?
+
+```java
+int value = 82;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 81
+B) 82
+C) 80
+D) 83
+
+
+Question 220:
+Given the code snippet:
+
+```java
+int num = 235;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 236
+B) 235
+C) 234
+D) 237
+
+
+Question 221:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 82;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 81
+B) 80
+C) 79
+D) 83
+
+
+Question 222:
+What is the output of the following Java code?
+
+```java
+int x = 60;
+int y = 16;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 44
+B) 43
+C) 42
+D) 45
+
+
+Question 223:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 65;
+counter = counter-- - --counter + ++counter - counter--;
+```
+
+A) 64
+B) 65
+C) 66
+D) 63
+
+
+Question 224:
+What will be the value of `value` after executing the following code?
+
+```java
+int value = 85;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 84
+B) 85
+C) 83
+D) 86
+
+
+Question 225:
+Given the code snippet:
+
+```java
+int num = 245;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 246
+B) 245
+C) 244
+D) 247
+
+
+Question 226:
+What will be the output of the following Java code?
+
+```java
+int a = 85;
+int b = 23;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 59
+B) 58
+C) 57
+D) 60
+
+
+Question 227:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 250;
+x = x-- - --x + ++x - x++;
+```
+
+A) 249
+B) 250
+C) 248
+D) 251
+
+
+ C) 248
+
+Question 228:
+What is the output of the following Java code?
+
+```java
+int value = 87;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 86
+B) 87
+C) 85
+D) 88
+
+
+Question 229:
+Given the code snippet:
+
+```java
+int num = 255;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 256
+B) 255
+C) 254
+D) 257
+
+
+Question 230:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 87;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 86
+B) 85
+C) 84
+D) 88
+
+
+Question 231:
+Given the code snippet:
+
+```java
+byte num = 10;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 11
+B) 10
+C) 9
+D) 12
+
+
+Question 232:
+What will be the output of the following Java code?
+
+```java
+short a = 20;
+short b = 5;
+short result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 10
+B) 9
+C) 8
+D) 11
+
+
+Question 233:
+After the code is executed, what will be the value of `x`?
+
+```java
+int x = 30;
+x = x-- - --x + ++x - x++;
+```
+
+A) 29
+B) 30
+C) 28
+D) 31
+
+
+Question 234:
+What is the output of the following Java code?
+
+```java
+long value = 25;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 24
+B) 25
+C) 23
+D) 26
+
+
+Question 235:
+Given the code snippet:
+
+```java
+float num = 18.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 19.5
+B) 18.5
+C) 17.5
+D) 20.5
+
+
+Question 236:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 12.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 11.5
+B) 10.5
+C) 9.5
+D) 13.5
+
+
+Question 237:
+What is the output of the following Java code?
+
+```java
+byte x = 10;
+byte y = 5;
+byte z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 6
+B) 5
+C) 4
+D) 7
+
+
+Question 238:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 15;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 14
+B) 15
+C) 16
+D) 13
+
+
+Question 239:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 50;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 49
+B) 50
+C) 48
+D) 51
+
+
+Question 240:
+Given the code snippet:
+
+```java
+float num = 14.2f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 15.2
+B) 14.2
+C) 13.2
+D) 16.2
+
+
+Question 241:
+What will be the output of the following Java code?
+
+```java
+double a = 30.5;
+double b = 10.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 20.5
+B) 19.5
+C) 18.5
+D) 21.5
+
+
+Question 242:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 40.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 39.7
+B) 40.7
+C) 38.7
+D) 41.7
+
+
+Question 243:
+What is the output of the following Java code?
+
+```java
+long value = 55;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 54
+B) 55
+C) 53
+D) 56
+
+
+Question 244:
+Given the code snippet:
+
+```java
+byte num = 60;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 61
+B) 60
+C) 59
+D) 62
+
+
+Question 245:
+What will be the value of `result` after executing the code below?
+
+```java
+short result = 60;
+result = (short)(result++ - --result + result-- - ++result);
+```
+
+A) 59
+B) 58
+C) 57
+D) 61
+
+
+Question 246:
+What is the output of the following Java code?
+
+```java
+byte x = 20;
+byte y = 6;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 14
+B) 13
+C) 12
+D) 15
+
+
+Question 247:
+After executing the following
+
+ code, what will be the value of `counter`?
+
+```java
+short counter = 25;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 24
+B) 25
+C) 26
+D) 23
+
+
+Question 248:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 70;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 69
+B) 70
+C) 68
+D) 71
+
+
+Question 249:
+Given the code snippet:
+
+```java
+float num = 22.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 23.5
+B) 22.5
+C) 21.5
+D) 24.5
+
+
+Question 250:
+What will be the output of the following Java code?
+
+```java
+double a = 70.5;
+double b = 24.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 46.5
+B) 45.5
+C) 44.5
+D) 47.5
+
+
+Question 251:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 80.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 79.7
+B) 80.7
+C) 78.7
+D) 81.7
+
+
+Question 252:
+What is the output of the following Java code?
+
+```java
+long value = 85;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 84
+B) 85
+C) 83
+D) 86
+
+
+Question 253:
+Given the code snippet:
+
+```java
+byte num = 90;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 91
+B) 90
+C) 89
+D) 92
+
+
+Question 254:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 90.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 89.5
+B) 88.5
+C) 87.5
+D) 91.5
+
+
+Question 255:
+What is the output of the following Java code?
+
+```java
+byte x = 30;
+byte y = 7;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 21
+B) 20
+C) 19
+D) 22
+
+
+Question 256:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 35;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 34
+B) 35
+C) 36
+D) 33
+
+
+Question 257:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 90;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 89
+B) 90
+C) 88
+D) 91
+
+
+Question 258:
+Given the code snippet:
+
+```java
+float num = 27.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 28.5
+B) 27.5
+C) 26.5
+D) 29.5
+
+
+Question 259:
+What will be the output of the following Java code?
+
+```java
+double a = 90.5;
+double b = 28.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 62.5
+B) 61.5
+C) 60.5
+D) 63.5
+
+
+Question 260:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 100.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 99.7
+B) 100.7
+C) 98.7
+D) 101.7
+
+
+Question 261:
+What is the output of the following Java code?
+
+```java
+long value = 95;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 94
+B) 95
+C) 93
+D) 96
+
+
+Question 262:
+Given the code snippet:
+
+```java
+byte num = 100;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 101
+B) 100
+C) 99
+D) 102
+
+
+Question 263:
+What will be the value of `result` after executing the code below?
+
+```java
+short result = 100;
+result = (short)(result++ - --result + result-- - ++result);
+```
+
+A) 99
+B) 98
+C) 97
+D) 101
+
+
+Question 264:
+What is the output of the following Java code?
+
+```java
+byte x = 40;
+byte y = 8;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 30
+
+B) 29
+C) 28
+D) 31
+
+
+Question 265:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 45;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 44
+B) 45
+C) 46
+D) 43
+
+
+Question 266:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 100;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 99
+B) 100
+C) 98
+D) 101
+
+
+Question 267:
+Given the code snippet:
+
+```java
+float num = 32.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 33.5
+B) 32.5
+C) 31.5
+D) 34.5
+
+
+Question 268:
+What will be the output of the following Java code?
+
+```java
+double a = 100.5;
+double b = 30.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 70.5
+B) 69.5
+C) 68.5
+D) 71.5
+
+
+Question 269:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 110.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 109.7
+B) 110.7
+C) 108.7
+D) 111.7
+
+
+Question 270:
+What is the output of the following Java code?
+
+```java
+long value = 105;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 104
+B) 105
+C) 103
+D) 106
+
+
+Question 271:
+Given the code snippet:
+
+```java
+byte num = 110;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 111
+B) 110
+C) 109
+D) 112
+
+
+Question 272:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 110.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 109.5
+B) 108.5
+C) 107.5
+D) 111.5
+
+
+Question 273:
+What is the output of the following Java code?
+
+```java
+byte x = 50;
+byte y = 9;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 41
+B) 40
+C) 39
+D) 42
+
+
+Question 274:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 55;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 54
+B) 55
+C) 56
+D) 53
+
+
+Question 275:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 110;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 109
+B) 110
+C) 108
+D) 111
+
+
+Question 276:
+Given the code snippet:
+
+```java
+float num = 37.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 38.5
+B) 37.5
+C) 36.5
+D) 39.5
+
+
+Question 277:
+What will be the output of the following Java code?
+
+```java
+double a = 110.5;
+double b = 32.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 77.5
+B) 76.5
+C) 75.5
+D) 78.5
+
+
+Question 278:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 120.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 119.7
+B) 120.7
+C) 118.7
+D) 121.7
+
+
+Question 279:
+What is the output of the following Java code?
+
+```java
+long value = 115;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 114
+B) 115
+C) 113
+D) 116
+
+
+Question 280:
+Given the code snippet:
+
+```java
+byte num = 120;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 121
+B) 120
+C) 119
+D) 122
+
+
+Question 281:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 120.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 119.5
+B) 118.5
+C) 117.5
+D) 121.5
+
+
+Question 282:
+What is the output of the following Java code?
+
+```java
+byte x = 60;
+byte y = 10;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 49
+B) 48
+C) 47
+D) 50
+
+
+Question 283:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 65;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 64
+B) 65
+C) 66
+D) 63
+
+
+Question 284:
+What will be
+
+ the value of `value` after executing the code below?
+
+```java
+long value = 120;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 119
+B) 120
+C) 118
+D) 121
+
+
+Question 285:
+Given the code snippet:
+
+```java
+float num = 42.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 43.5
+B) 42.5
+C) 41.5
+D) 44.5
+
+
+Question 286:
+What will be the output of the following Java code?
+
+```java
+double a = 120.5;
+double b = 36.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 83.5
+B) 82.5
+C) 81.5
+D) 84.5
+
+
+Question 287:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 130.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 129.7
+B) 130.7
+C) 128.7
+D) 131.7
+
+
+Question 288:
+What is the output of the following Java code?
+
+```java
+long value = 125;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 124
+B) 125
+C) 123
+D) 126
+
+
+Question 289:
+Given the code snippet:
+
+```java
+byte num = 130;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 131
+B) 130
+C) 129
+D) 132
+
+
+Question 290:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 130.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 129.5
+B) 128.5
+C) 127.5
+D) 131.5
+
+
+Question 291:
+What is the output of the following Java code?
+
+```java
+byte x = 70;
+byte y = 11;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 58
+B) 57
+C) 56
+D) 59
+
+
+Question 292:
+After executing the following code, what will be the value of `counter`?
+
+```java
+short counter = 75;
+counter = (short)(counter-- - --counter + ++counter - counter--);
+```
+
+A) 74
+B) 75
+C) 76
+D) 73
+
+
+Question 293:
+What will be the value of `value` after executing the code below?
+
+```java
+long value = 130;
+value = value-- + --value - value++ + ++value;
+```
+
+A) 129
+B) 130
+C) 128
+D) 131
+
+
+Question 294:
+Given the code snippet:
+
+```java
+float num = 47.5f;
+num = num++ + num-- - --num + ++num;
+```
+
+What is the final value of `num`?
+
+A) 48.5
+B) 47.5
+C) 46.5
+D) 49.5
+
+
+Question 295:
+What will be the output of the following Java code?
+
+```java
+double a = 130.5;
+double b = 40.5;
+double result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 89.5
+B) 88.5
+C) 87.5
+D) 90.5
+
+
+Question 296:
+After the code is executed, what will be the value of `x`?
+
+```java
+float x = 140.7f;
+x = x-- - --x + ++x - x++;
+```
+
+A) 139.7
+B) 140.7
+C) 138.7
+D) 141.7
+
+
+Question 297:
+What is the output of the following Java code?
+
+```java
+long value = 135;
+value = value-- + --value - value++ + ++value;
+System.out.println(value);
+```
+
+A) 134
+B) 135
+C) 133
+D) 136
+
+
+Question 298:
+Given the code snippet:
+
+```java
+byte num = 140;
+num = (byte)(num++ + num-- - --num + ++num);
+```
+
+What is the final value of `num`?
+
+A) 141
+B) 140
+C) 139
+D) 142
+
+
+Question 299:
+What will be the value of `result` after executing the code below?
+
+```java
+double result = 140.5;
+result = result++ - --result + result-- - ++result;
+```
+
+A) 139.5
+B) 138.5
+C) 137.5
+D) 141.5
+
+
+Question 300:
+What is the output of the following Java code?
+
+```java
+byte x = 80;
+byte y = 12;
+byte z = (byte)(x-- - --y + y++ - ++x);
+System.out.println(z);
+```
+
+A) 68
+B) 67
+C) 66
+D) 69
+
+
+Question 301:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 5;
+result = result++ + result-- - ++result;
+```
+
+A) 7
+B) 8
+C) 6
+D) 5
+
+
+Question 302:
+What is the output of the following Java code?
+
+```java
+int x = 10;
+x = x++ + x-- - --x;
+System.out.println(x);
+```
+
+A) 9
+B) 10
+C) 11
+D) 8
+
+
+Question 303:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 15;
+counter = counter-- + ++counter - counter++;
+```
+
+A) 15
+B) 16
+C) 14
+D) 17
+
+
+Question 304:
+Given the code snippet:
+
+```java
+int num = 20;
+num = num++ + --num - num-- + ++num;
+```
+
+What is the final value of `num`?
+
+A) 21
+B) 20
+C) 19
+D) 22
+
+
+Question 305:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 25;
+result = result++ - --result + result++ - ++result;
+```
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 306:
+What is the output of the following Java code?
+
+```java
+int a = 30;
+int b = 10;
+int result = a-- + --b - b-- + ++a;
+System.out.println(result);
+```
+
+A) 29
+B) 28
+C) 27
+D) 30
+
+
+Question 307:
+After executing the following code, what will be the value of `x`?
+
+```java
+int x = 40;
+x = x++ - --x + ++x - x--;
+```
+
+A) 40
+B) 39
+C) 38
+D) 41
+
+
+Question 308:
+What is the output of the following Java code?
+
+```java
+int value = 45;
+value = value++ + value-- - ++value - value++;
+System.out.println(value);
+```
+
+A) 44
+B) 45
+C) 46
+D) 43
+
+
+Question 309:
+Given the code snippet:
+
+```java
+int num = 50;
+num = num++ + num-- - num++ + num--;
+```
+
+What is the final value of `num`?
+
+A) 51
+B) 50
+C) 49
+D) 52
+
+
+Question 310:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 55;
+result = result++ - result-- + ++result - --result;
+```
+
+A) 55
+B) 54
+C) 56
+D) 53
+
+
+Question 311:
+What is the output of the following Java code?
+
+```java
+int a = 60;
+int b = 20;
+int result = a++ - ++b - b-- + --a;
+System.out.println(result);
+```
+
+A) 38
+B) 37
+C) 36
+D) 39
+
+
+Question 312:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 65;
+counter = counter-- - --counter + ++counter - counter++;
+```
+
+A) 65
+B) 64
+C) 66
+D) 63
+
+
+Question 313:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 70;
+value = value++ - value-- + ++value - --value;
+```
+
+A) 70
+B) 69
+C) 71
+D) 68
+
+
+Question 314:
+Given the code snippet:
+
+```java
+int num = 75;
+num = num++ - num-- + num++ - num--;
+```
+
+What is the final value of `num`?
+
+A) 75
+B) 74
+C) 73
+D) 76
+
+
+Question 315:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 80;
+result = result-- + ++result - result++ - --result;
+```
+
+A) 80
+B) 81
+C) 79
+D) 82
+
+
+Question 316:
+What is the output of the following Java code?
+
+```java
+int x = 85;
+int y = 5;
+int z = x-- + --y - y++ + ++x;
+System.out.println(z);
+```
+
+A) 86
+B) 85
+C) 84
+D) 87
+
+
+Question 317:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 90;
+counter = counter-- - --counter + counter-- - counter++;
+```
+
+A) 90
+B) 89
+C) 91
+D) 88
+
+
+Question 318:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 95;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 95
+B) 94
+C) 93
+D) 96
+
+
+Question 319:
+Given the code snippet:
+
+```java
+int num = 100;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 100
+B) 99
+C) 98
+D) 101
+
+
+Question 320:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 105;
+result = result++ - --result + result++ - --result;
+```
+
+A) 105
+B) 106
+C) 104
+D) 107
+
+
+Question 321:
+What is the output of the following Java code?
+
+```java
+int a = 110;
+int b = 10;
+int result = a-- + ++b - b++ + --a;
+System.out.println(result);
+```
+
+A) 110
+B) 109
+C) 108
+D) 111
+
+
+Question 322:
+After the code is executed, what will be the
+
+ value of `counter`?
+
+```java
+int counter = 115;
+counter = counter-- + --counter - ++counter - counter++;
+```
+
+A) 115
+B) 114
+C) 116
+D) 113
+
+
+Question 323:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 120;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 120
+B) 119
+C) 118
+D) 121
+
+
+Question 324:
+Given the code snippet:
+
+```java
+int num = 125;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 125
+B) 124
+C) 123
+D) 126
+
+
+Question 325:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 130;
+result = result-- - ++result - result++ - --result;
+```
+
+A) 130
+B) 129
+C) 128
+D) 131
+
+
+Question 326:
+What is the output of the following Java code?
+
+```java
+int x = 135;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 136
+B) 135
+C) 134
+D) 137
+
+
+Question 327:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 140;
+counter = counter-- + --counter - counter++ - ++counter;
+```
+
+A) 140
+B) 139
+C) 141
+D) 138
+
+
+Question 328:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 145;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 145
+B) 144
+C) 143
+D) 146
+
+
+Question 329:
+Given the code snippet:
+
+```java
+int num = 150;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 150
+B) 149
+C) 148
+D) 151
+
+
+Question 330:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 155;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 155
+B) 154
+C) 153
+D) 156
+
+
+Question 331:
+What is the output of the following Java code?
+
+```java
+int a = 160;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 149
+B) 148
+C) 147
+D) 150
+
+
+Question 332:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 165;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 165
+B) 164
+C) 166
+D) 163
+
+
+Question 333:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 170;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 170
+B) 169
+C) 168
+D) 171
+
+
+Question 334:
+Given the code snippet:
+
+```java
+int num = 175;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 175
+B) 174
+C) 173
+D) 176
+
+
+Question 335:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 180;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 180
+B) 179
+C) 178
+D) 181
+
+
+Question 336:
+What is the output of the following Java code?
+
+```java
+int x = 185;
+int y = 5;
+int z = x-- + --y - y++ + ++x;
+System.out.println(z);
+```
+
+A) 186
+B) 185
+C) 184
+D) 187
+
+
+Question 337:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 190;
+counter = counter-- + --counter - ++counter - counter++;
+```
+
+A) 190
+B) 189
+C) 191
+D) 188
+
+
+Question 338:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 195;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 195
+B) 194
+C) 193
+D) 196
+
+
+Question 339:
+Given the code snippet:
+
+```java
+int num = 200;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 200
+B) 199
+C) 198
+D) 201
+
+
+Question 340:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 205;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 205
+B) 204
+C) 203
+D) 206
+
+
+Question 341:
+What is the output of the following Java code?
+
+```java
+int a = 210;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 199
+B) 198
+C) 197
+D) 200
+
+
+Question 342:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 215;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 215
+B) 214
+C) 216
+D) 213
+
+
+Question 343:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 220;
+value = value--
+
+ - value++ + ++value - --value;
+```
+
+A) 220
+B) 219
+C) 218
+D) 221
+
+
+Question 344:
+Given the code snippet:
+
+```java
+int num = 225;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 225
+B) 224
+C) 223
+D) 226
+
+
+Question 345:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 230;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 230
+B) 229
+C) 228
+D) 231
+
+
+Question 346:
+What is the output of the following Java code?
+
+```java
+int x = 235;
+int y = 5;
+int z = x-- + --y - y++ + ++x;
+System.out.println(z);
+```
+
+A) 236
+B) 235
+C) 234
+D) 237
+
+
+Question 347:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 240;
+counter = counter-- + --counter - counter++ - ++counter;
+```
+
+A) 240
+B) 239
+C) 241
+D) 238
+
+
+Question 348:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 245;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 245
+B) 244
+C) 243
+D) 246
+
+
+Question 349:
+Given the code snippet:
+
+```java
+int num = 250;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 250
+B) 249
+C) 248
+D) 251
+
+
+Question 350:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 255;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 255
+B) 254
+C) 253
+D) 256
+
+
+Question 351:
+What is the output of the following Java code?
+
+```java
+int a = 260;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 249
+B) 248
+C) 247
+D) 250
+
+
+Question 352:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 265;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 265
+B) 264
+C) 266
+D) 263
+
+
+Question 353:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 270;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 270
+B) 269
+C) 268
+D) 271
+
+
+Question 354:
+Given the code snippet:
+
+```java
+int num = 275;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 275
+B) 274
+C) 273
+D) 276
+
+
+Question 355:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 280;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 280
+B) 279
+C) 278
+D) 281
+
+
+Question 356:
+What is the output of the following Java code?
+
+```java
+int x = 285;
+int y = 5;
+int z = x-- + --y - y++ + ++x;
+System.out.println(z);
+```
+
+A) 286
+B) 285
+C) 284
+D) 287
+
+
+Question 357:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 290;
+counter = counter-- + --counter - counter++ - ++counter;
+```
+
+A) 290
+B) 289
+C) 291
+D) 288
+
+
+Question 358:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 295;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 295
+B) 294
+C) 293
+D) 296
+
+
+Question 359:
+Given the code snippet:
+
+```java
+int num = 300;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 300
+B) 299
+C) 298
+D) 301
+
+
+Question 360:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 305;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 305
+B) 304
+C) 303
+D) 306
+
+
+Question 361:
+What will be the output of the following Java code?
+
+```java
+int a = 10;
+int b = 5;
+int c = a-- + --b + b++ + ++a;
+System.out.println(c);
+```
+
+A) 19
+B) 18
+C) 17
+D) 20
+
+
+Question 362:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 15;
+counter = counter-- - --counter + counter++ - ++counter;
+```
+
+A) 15
+B) 14
+C) 13
+D) 16
+
+
+Question 363:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 20;
+result = result++ - --result + result++ - ++result;
+```
+
+A) 19
+B) 20
+C) 21
+D) 18
+
+
+Question 364:
+What is the output of the following Java code?
+
+```java
+int x = 25;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 26
+B) 25
+C) 24
+D) 27
+
+
+Question 365:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 30;
+counter = counter-- + --counter - counter++ - ++counter;
+```
+
+A) 30
+B) 29
+C) 28
+D) 31
+
+
+Question 366:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 35;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 35
+B) 34
+C) 33
+D) 36
+
+
+Question 367:
+Given the code snippet:
+
+```java
+int num = 40;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 40
+B) 39
+C) 38
+D) 41
+
+
+Question 368:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 45;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 45
+B) 44
+C) 43
+D) 46
+
+
+Question 369:
+What is the output of the following Java code?
+
+```java
+int a = 50;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 39
+B) 38
+C) 37
+D) 40
+
+
+Question 370:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 55;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 55
+B) 54
+C) 53
+D) 56
+
+
+Question 371:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 60;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 60
+B) 59
+C) 58
+D) 61
+
+
+Question 372:
+Given the code snippet:
+
+```java
+int num = 65;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 65
+B) 64
+C) 63
+D) 66
+
+
+Question 373:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 70;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 70
+B) 69
+C) 68
+D) 71
+
+
+Question 374:
+What is the output of the following Java code?
+
+```java
+int x = 75;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 76
+B) 75
+C) 74
+D) 77
+
+
+Question 375:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 80;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 80
+B) 79
+C) 78
+D) 81
+
+
+Question 376:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 85;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 85
+B) 84
+C) 83
+D) 86
+
+
+Question 377:
+Given the code snippet:
+
+```java
+int num = 90;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 90
+B) 89
+C) 88
+D) 91
+
+
+Question 378:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 95;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 95
+B) 94
+C) 93
+D) 96
+
+
+Question 379:
+What is the output of the following Java code?
+
+```java
+int a = 100;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 89
+B) 88
+C) 87
+D) 90
+
+
+Question 380:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 105;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 105
+B) 104
+C) 103
+D) 106
+
+
+Question 381:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 110;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 110
+B) 109
+C) 108
+D)
+
+ 111
+
+
+Question 382:
+Given the code snippet:
+
+```java
+int num = 115;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 115
+B) 114
+C) 113
+D) 116
+
+
+Question 383:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 120;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 120
+B) 119
+C) 118
+D) 121
+
+
+Question 384:
+What is the output of the following Java code?
+
+```java
+int x = 125;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 126
+B) 125
+C) 124
+D) 127
+
+
+Question 385:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 130;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 130
+B) 129
+C) 128
+D) 131
+
+
+Question 386:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 135;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 135
+B) 134
+C) 133
+D) 136
+
+
+Question 387:
+Given the code snippet:
+
+```java
+int num = 140;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 140
+B) 139
+C) 138
+D) 141
+
+
+Question 388:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 145;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 145
+B) 144
+C) 143
+D) 146
+
+
+Question 389:
+What is the output of the following Java code?
+
+```java
+int a = 150;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 139
+B) 138
+C) 137
+D) 140
+
+
+Question 390:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 155;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 155
+B) 154
+C) 153
+D) 156
+
+
+Question 391:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 160;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 160
+B) 159
+C) 158
+D) 161
+
+
+Question 392:
+Given the code snippet:
+
+```java
+int num = 165;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 165
+B) 164
+C) 163
+D) 166
+
+
+Question 393:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 170;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 170
+B) 169
+C) 168
+D) 171
+
+
+Question 394:
+What is the output of the following Java code?
+
+```java
+int x = 175;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 176
+B) 175
+C) 174
+D) 177
+
+
+Question 395:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 180;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 180
+B) 179
+C) 178
+D) 181
+
+
+Question 396:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 185;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 185
+B) 184
+C) 183
+D) 186
+
+
+Question 397:
+Given the code snippet:
+
+```java
+int num = 190;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 190
+B) 189
+C) 188
+D) 191
+
+
+Question 398:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 195;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 195
+B) 194
+C) 193
+D) 196
+
+
+Question 399:
+What is the output of the following Java code?
+
+```java
+int a = 200;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 189
+B) 188
+C) 187
+D) 190
+
+
+Question 400:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 205;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 205
+B) 204
+C) 203
+D) 206
+
+
+Question 401:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 210;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 210
+B) 209
+C) 208
+D) 211
+
+
+Question 402:
+Given the code snippet:
+
+```java
+int num = 215;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 215
+B) 214
+C) 213
+D) 216
+
+
+Question 403:
+What will be the
+
+ value of `result` after executing the code below?
+
+```java
+int result = 220;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 220
+B) 219
+C) 218
+D) 221
+
+
+Question 404:
+What is the output of the following Java code?
+
+```java
+int x = 225;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 226
+B) 225
+C) 224
+D) 227
+
+
+Question 405:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 230;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 230
+B) 229
+C) 228
+D) 231
+
+
+Question 406:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 235;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 235
+B) 234
+C) 233
+D) 236
+
+
+Question 407:
+Given the code snippet:
+
+```java
+int num = 240;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 240
+B) 239
+C) 238
+D) 241
+
+
+Question 408:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 245;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 245
+B) 244
+C) 243
+D) 246
+
+
+Question 409:
+What is the output of the following Java code?
+
+```java
+int a = 250;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 239
+B) 238
+C) 237
+D) 240
+
+
+Question 410:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 255;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 255
+B) 254
+C) 253
+D) 256
+
+
+Question 411:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 260;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 260
+B) 259
+C) 258
+D) 261
+
+
+Question 412:
+Given the code snippet:
+
+```java
+int num = 265;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 265
+B) 264
+C) 263
+D) 266
+
+
+Question 413:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 270;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 270
+B) 269
+C) 268
+D) 271
+
+
+Question 414:
+What is the output of the following Java code?
+
+```java
+int x = 275;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 276
+B) 275
+C) 274
+D) 277
+
+
+Question 415:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 280;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 280
+B) 279
+C) 278
+D) 281
+
+
+Question 416:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 285;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 285
+B) 284
+C) 283
+D) 286
+
+
+Question 417:
+Given the code snippet:
+
+```java
+int num = 290;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 290
+B) 289
+C) 288
+D) 291
+
+
+Question 418:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 295;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 295
+B) 294
+C) 293
+D) 296
+
+
+Question 419:
+What is the output of the following Java code?
+
+```java
+int a = 300;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 289
+B) 288
+C) 287
+D) 290
+
+
+Question 420:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 305;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 305
+B) 304
+C) 303
+D) 306
+
+
+Question 421:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 310;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 310
+B) 309
+C) 308
+D) 311
+
+
+Question 422:
+Given the code snippet:
+
+```java
+int num = 315;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 315
+B) 314
+C) 313
+D) 316
+
+
+Question 423:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 320;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 320
+B) 319
+C) 318
+D) 321
+
+
+Question 424:
+What is the output of the following Java code?
+
+```java
+int x = 325;
+int y
+
+ = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 326
+B) 325
+C) 324
+D) 327
+
+
+Question 425:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 330;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 330
+B) 329
+C) 328
+D) 331
+
+
+Question 426:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 335;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 335
+B) 334
+C) 333
+D) 336
+
+
+Question 427:
+Given the code snippet:
+
+```java
+int num = 340;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 340
+B) 339
+C) 338
+D) 341
+
+
+Question 428:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 345;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 345
+B) 344
+C) 343
+D) 346
+
+
+Question 429:
+What is the output of the following Java code?
+
+```java
+int a = 350;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 339
+B) 338
+C) 337
+D) 340
+
+
+Question 430:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 355;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 355
+B) 354
+C) 353
+D) 356
+
+
+Question 431:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 360;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 360
+B) 359
+C) 358
+D) 361
+
+
+Question 432:
+Given the code snippet:
+
+```java
+int num = 365;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 365
+B) 364
+C) 363
+D) 366
+
+
+Question 433:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 370;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 370
+B) 369
+C) 368
+D) 371
+
+
+Question 434:
+What is the output of the following Java code?
+
+```java
+int x = 375;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 376
+B) 375
+C) 374
+D) 377
+
+
+Question 435:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 380;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 380
+B) 379
+C) 378
+D) 381
+
+
+Question 436:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 385;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 385
+B) 384
+C) 383
+D) 386
+
+
+Question 437:
+Given the code snippet:
+
+```java
+int num = 390;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 390
+B) 389
+C) 388
+D) 391
+
+
+Question 438:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 395;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 395
+B) 394
+C) 393
+D) 396
+
+
+Question 439:
+What is the output of the following Java code?
+
+```java
+int a = 400;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 389
+B) 388
+C) 387
+D) 390
+
+
+Question 440:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 405;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 405
+B) 404
+C) 403
+D) 406
+
+
+Question 441:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 410;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 410
+B) 409
+C) 408
+D) 411
+
+
+Question 442:
+Given the code snippet:
+
+```java
+int num = 415;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 415
+B) 414
+C) 413
+D) 416
+
+
+Question 443:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 420;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 420
+B) 419
+C) 418
+D) 421
+
+
+Question 444:
+What is the output of the following Java code?
+
+```java
+int x = 425;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 426
+B) 425
+C) 424
+D) 427
+
+
+Question 445:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 430;
+counter = counter-- - ++
+
+counter - counter++ - --counter;
+```
+
+A) 430
+B) 429
+C) 428
+D) 431
+
+
+Question 446:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 435;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 435
+B) 434
+C) 433
+D) 436
+
+
+Question 447:
+Given the code snippet:
+
+```java
+int num = 440;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 440
+B) 439
+C) 438
+D) 441
+
+
+Question 448:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 445;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 445
+B) 444
+C) 443
+D) 446
+
+
+Question 449:
+What is the output of the following Java code?
+
+```java
+int a = 450;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 439
+B) 438
+C) 437
+D) 440
+
+
+Question 450:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 455;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 455
+B) 454
+C) 453
+D) 456
+
+
+Question 451:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 460;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 460
+B) 459
+C) 458
+D) 461
+
+
+Question 452:
+Given the code snippet:
+
+```java
+int num = 465;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 465
+B) 464
+C) 463
+D) 466
+
+
+Question 453:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 470;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 470
+B) 469
+C) 468
+D) 471
+
+
+Question 454:
+What is the output of the following Java code?
+
+```java
+int x = 475;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 476
+B) 475
+C) 474
+D) 477
+
+
+Question 455:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 480;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 480
+B) 479
+C) 478
+D) 481
+
+
+Question 456:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 485;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 485
+B) 484
+C) 483
+D) 486
+
+
+Question 457:
+Given the code snippet:
+
+```java
+int num = 490;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 490
+B) 489
+C) 488
+D) 491
+
+
+Question 458:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 495;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 495
+B) 494
+C) 493
+D) 496
+
+
+Question 459:
+What is the output of the following Java code?
+
+```java
+int a = 500;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 489
+B) 488
+C) 487
+D) 490
+
+
+Question 460:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 505;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 505
+B) 504
+C) 503
+D) 506
+
+
+Question 461:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 510;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 510
+B) 509
+C) 508
+D) 511
+
+
+Question 462:
+Given the code snippet:
+
+```java
+int num = 515;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 515
+B) 514
+C) 513
+D) 516
+
+
+Question 463:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 520;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 520
+B) 519
+C) 518
+D) 521
+
+
+Question 464:
+What is the output of the following Java code?
+
+```java
+int x = 525;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 526
+B) 525
+C) 524
+D) 527
+
+
+Question 465:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 530;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 530
+B) 529
+C) 528
+D) 531
+
+
+Question 466:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 535;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 535
+B)
+
+ 534
+C) 533
+D) 536
+
+
+Question 467:
+Given the code snippet:
+
+```java
+int num = 540;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 540
+B) 539
+C) 538
+D) 541
+
+
+Question 468:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 545;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 545
+B) 544
+C) 543
+D) 546
+
+
+Question 469:
+What is the output of the following Java code?
+
+```java
+int a = 550;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 539
+B) 538
+C) 537
+D) 540
+
+
+Question 470:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 555;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 555
+B) 554
+C) 553
+D) 556
+
+
+Question 471:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 560;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 560
+B) 559
+C) 558
+D) 561
+
+
+Question 472:
+Given the code snippet:
+
+```java
+int num = 565;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 565
+B) 564
+C) 563
+D) 566
+
+
+Question 473:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 570;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 570
+B) 569
+C) 568
+D) 571
+
+
+Question 474:
+What is the output of the following Java code?
+
+```java
+int x = 575;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 576
+B) 575
+C) 574
+D) 577
+
+
+Question 475:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 580;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 580
+B) 579
+C) 578
+D) 581
+
+
+Question 476:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 585;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 585
+B) 584
+C) 583
+D) 586
+
+
+Question 477:
+Given the code snippet:
+
+```java
+int num = 590;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 590
+B) 589
+C) 588
+D) 591
+
+
+Question 478:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 595;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 595
+B) 594
+C) 593
+D) 596
+
+
+Question 479:
+What is the output of the following Java code?
+
+```java
+int a = 600;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 589
+B) 588
+C) 587
+D) 590
+
+
+Question 480:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 605;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 605
+B) 604
+C) 603
+D) 606
+
+
+Question 481:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 610;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 610
+B) 609
+C) 608
+D) 611
+
+
+Question 482:
+Given the code snippet:
+
+```java
+int num = 615;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 615
+B) 614
+C) 613
+D) 616
+
+
+Question 483:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 620;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 620
+B) 619
+C) 618
+D) 621
+
+
+Question 484:
+What is the output of the following Java code?
+
+```java
+int x = 625;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 626
+B) 625
+C) 624
+D) 627
+
+
+Question 485:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 630;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 630
+B) 629
+C) 628
+D) 631
+
+
+Question 486:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 635;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 635
+B) 634
+C) 633
+D) 636
+
+
+Question 487:
+Given the code snippet:
+
+```java
+int num = 640;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 640
+B) 639
+C) 638
+D) 641
+
+
+640
+
+Question 488:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 645;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 645
+B) 644
+C) 643
+D) 646
+
+
+Question 489:
+What is the output of the following Java code?
+
+```java
+int a = 650;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 639
+B) 638
+C) 637
+D) 640
+
+
+Question 490:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 655;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 655
+B) 654
+C) 653
+D) 656
+
+
+Question 491:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 660;
+value = value-- - value++ + ++value - --value;
+```
+
+A) 660
+B) 659
+C) 658
+D) 661
+
+
+Question 492:
+Given the code snippet:
+
+```java
+int num = 665;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 665
+B) 664
+C) 663
+D) 666
+
+
+Question 493:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 670;
+result = result-- - --result + result++ - ++result;
+```
+
+A) 670
+B) 669
+C) 668
+D) 671
+
+
+Question 494:
+What is the output of the following Java code?
+
+```java
+int x = 675;
+int y = 5;
+int z = x-- - --y + y++ - ++x;
+System.out.println(z);
+```
+
+A) 676
+B) 675
+C) 674
+D) 677
+
+
+Question 495:
+After executing the following code, what will be the value of `counter`?
+
+```java
+int counter = 680;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 680
+B) 679
+C) 678
+D) 681
+
+
+Question 496:
+What will be the value of `value` after executing the code below?
+
+```java
+int value = 685;
+value = value-- - ++value - value++ - --value;
+```
+
+A) 685
+B) 684
+C) 683
+D) 686
+
+
+Question 497:
+Given the code snippet:
+
+```java
+int num = 690;
+num = num-- - num++ + num-- - num++;
+```
+
+What is the final value of `num`?
+
+A) 690
+B) 689
+C) 688
+D) 691
+
+
+Question 498:
+What will be the value of `result` after executing the code below?
+
+```java
+int result = 695;
+result = result-- - result++ + ++result - --result;
+```
+
+A) 695
+B) 694
+C) 693
+D) 696
+
+
+Question 499:
+What is the output of the following Java code?
+
+```java
+int a = 700;
+int b = 10;
+int result = a-- - ++b + b-- - --a;
+System.out.println(result);
+```
+
+A) 689
+B) 688
+C) 687
+D) 690
+
+
+Question 500:
+After the code is executed, what will be the value of `counter`?
+
+```java
+int counter = 705;
+counter = counter-- - ++counter - counter++ - --counter;
+```
+
+A) 705
+B) 704
+C) 703
+D) 706
+

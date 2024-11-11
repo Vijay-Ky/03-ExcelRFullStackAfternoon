@@ -1,0 +1,31 @@
+/* rgba - a - alpha/opacity/tranparency/visibility 0 - 1 */
+/* 0 means there is no trasparency at all */
+/* 1 means complete trasparency */
+
+#first
+{
+    color: rgba(255, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
+}
+
+#second
+{
+    color: rgba(255, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.25);
+}
+
+#three
+{
+    color: rgba(255, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.75);
+}
+#four
+{
+    color: rgba(0, 255, 0, 0.67);
+    background: rgba(0, 0, 0, 1);
+}
+
+body
+{
+    background: rgb(210, 89, 210);
+}

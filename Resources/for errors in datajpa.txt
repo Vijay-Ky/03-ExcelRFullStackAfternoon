@@ -1,0 +1,7 @@
+
+run this on sql command line
+
+CREATE USER 'SpringDataJpa'@'localhost' IDENTIFIED BY 'SpringDataJpa';
+
+GRANT ALL ON *.* TO 'SpringDataJpa'@'localhost';
+drop user pringDataJpa@localhost;

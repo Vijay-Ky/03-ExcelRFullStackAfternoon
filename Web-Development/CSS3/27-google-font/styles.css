@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Rubik+Doodle+Triangles&family=Ubuntu&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Rubik+Doodle+Triangles&family=Ubuntu&display=swap');
+
+h1
+{
+    font-family: Rubik Doodle Triangles;
+}
+
+.first
+{
+    font-family: Lobster;
+}
+
+h2
+{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.second
+{
+    font-family: 'Roboto', sans-serif;
+}

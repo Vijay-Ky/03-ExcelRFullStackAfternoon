@@ -1,0 +1,39 @@
+/* last rule and specificity - universal selector */
+
+.special
+{
+    color: green;
+}
+
+p
+{
+    color: red;
+}
+
+p
+{
+    color: blue;
+}
+
+.special
+{
+    color: yellow;
+}
+
+#heading
+{
+    color: chartreuse;
+}
+
+.heading
+{
+    color: crimson;
+    font-family: cursive;
+}
+
+*
+{
+    color: brown;
+    background: darkseagreen;
+    font-family: fantasy;
+}

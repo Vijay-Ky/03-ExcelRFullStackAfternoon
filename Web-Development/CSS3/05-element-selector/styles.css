@@ -1,0 +1,23 @@
+/* selecting the elements by their name - element selector */
+html
+{
+    background-color: burlywood;
+}
+
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    color: blue;
+}
+h2
+{
+    color: green;
+}
+p
+{
+    color: grey;
+}

@@ -1,0 +1,26 @@
+/* 
+CSS BOX MODEL
+*/
+/* group selector */
+h1,
+p 
+{
+  color: white;
+}
+h1
+{
+    background: red;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+}
+
+p 
+{
+    background: blue;
+    padding: 40px;
+    padding: 30px 60px;
+    /* top right bottom left */
+    padding: 5px 40px 50px 40px; 
+}

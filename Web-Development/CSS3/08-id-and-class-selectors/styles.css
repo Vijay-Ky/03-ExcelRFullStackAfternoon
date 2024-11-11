@@ -1,0 +1,35 @@
+/* id is the first preference */
+#red
+{
+    color: red;
+    background-color: violet;
+}
+
+/* class is the second preference */
+.green
+{
+    color: green;
+    background-color: black;
+    font-size: 50px;
+}
+
+/* element selector is the third preference */
+h3
+{
+    color: chartreuse;
+}
+
+.blue
+{
+    color: blue;
+}
+
+.uppercase
+{
+    text-transform: uppercase;
+}
+
+.red
+{
+    color: red;
+}

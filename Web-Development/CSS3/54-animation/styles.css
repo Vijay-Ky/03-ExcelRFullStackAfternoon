@@ -1,0 +1,58 @@
+/* 
+Transtion 0 = 100%
+from start state to end state
+ANIMATION 0 1% 2% .... 100%
+ multiple states
+*/
+
+div {
+    width: 200px;
+    height: 100px;
+    color: white;
+    margin: 10px;
+  }
+
+  .transition {
+    background: red;
+    transition: all 4s none;
+    transition: all 4s linear;
+    transition: all 4s ease-in;
+    transition: all 4s ease-out;
+    transition: all 4s ease-in-out;
+  }
+
+  .transition:hover {
+    background: yellow;
+    transform: translateX(100px);
+    transform: translateY(100px);
+    transform: translate(100px, 100px)
+  }
+
+  .animation {
+    background: blue;
+    /* animation-name: move;
+    animation-duration: 10s;
+    animation-iteration-count: 3; */
+    animation: move 10s infinite;
+    animation: move 10s forwards;
+  }
+
+  @keyframes move {
+    0% {
+      transform: translateX(20px);
+      background: black;
+    }
+    50% {
+      transform: translateX(100px);
+      background: red;
+    }
+    75% {
+      transform: translateX(-200px);
+      background: yellow;
+    }
+    100% {
+      transform: translateX(20px);
+      background: green;
+    }
+  }
+  
